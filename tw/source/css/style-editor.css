@@ -1,17 +1,21 @@
+@import "tailwindcss/utilities";
+
+/* ------ Add your CSS below this line (or @import your other CSS files). ------- */
+
 body {
 	color: #333;
 	font-family: "Source Sans Pro", sans-serif;
-	font-size: 18px;
+	font-size: 1.125rem;
+	line-height: 1.75rem;
 	font-weight: 400;
-	line-height: 1.625;
 }
 
 p,
 ul,
 ol,
 dl {
-	font-size: 18px;
-	line-height: 1.625;
+	font-size: 1.125rem;
+	line-height: 1.75rem;
 }
 
 /* Regular content width.
@@ -73,35 +77,37 @@ h5,
 h6 {
 	font-family: "Source Sans Pro", sans-serif;
 	font-weight: 400;
-	line-height: 1.2;
-	margin: 0 0 20px;
+	margin: 0 0 1.125rem;
 }
 
 h1 {
-	font-size: 30px;
+	font-size: 3rem;
+	line-height: 1;
 }
 
 h2 {
-	font-size: 27px;
+	font-size: 2.25rem;
+	line-height: 2.5rem;
 }
 
 h3 {
-	font-size: 24px;
-	font-weight: 600;
+	font-size: 1.5rem;
+	line-height: 2rem;
 }
 
 h4 {
-	font-size: 20px;
-	font-weight: 600;
-	margin-top: 40px;
+	font-size: 1.25rem;
+	line-height: 1.75rem;
 }
 
 h5 {
-	font-size: 18px;
+	font-size: 1.125rem;
+	line-height: 1.75rem;
 }
 
 h6 {
-	font-size: 16px;
+	font-size: 1rem;
+	line-height: 1.5rem;
 }
 
 .editor-post-title__block .editor-post-title__input {
@@ -119,6 +125,80 @@ p.has-drop-cap:not(:focus)::first-letter {
 p.has-larger-font-size.has-drop-cap:not(:focus)::first-letter,
 p.has-small-font-size.has-drop-cap:not(:focus)::first-letter {
 	margin-right: 0.01em;
+}
+
+.textsize-xs,
+.textsize-smaller,
+.textsize-reference {
+	@apply text-xs;
+}
+.textsize-sm,
+.textsize-small {
+	@apply text-sm;
+}
+.textsize-base {
+	@apply text-base;
+}
+.textsize-lg,
+.textsize-normal {
+	@apply text-lg;
+}
+.textsize-xl {
+	@apply text-xl;
+}
+.textsize-2xl,
+.textsize-medium,
+.textsize-intro {
+	@apply text-2xl;
+}
+.textsize-3xl {
+	@apply text-3xl;
+}
+.textsize-4xl,
+.textsize-large {
+	@apply text-4xl;
+}
+.textsize-5xl,
+.textsize-larger {
+	@apply text-5xl;
+}
+.textsize-6xl,
+.textsize-largest {
+	@apply text-6xl;
+}
+.textsize-7xl,
+.textsize-huge {
+	@apply text-7xl;
+}
+.textsize-8xl,
+.textsize-huge2x {
+	@apply text-8xl;
+}
+.textsize-9xl,
+.textsize-huge3x {
+	@apply text-9xl;
+}
+
+.fontweight-light {
+	@apply font-light;
+}
+.fontweight-normal {
+	@apply font-normal;
+}
+.fontweight-medium {
+	@apply font-medium;
+}
+.fontweight-semibold {
+	@apply font-semibold;
+}
+.fontweight-bold {
+	@apply font-bold;
+}
+.fontweight-extrabold {
+	@apply font-extrabold;
+}
+.fontweight-black {
+	@apply font-black;
 }
 
 /* Background Color

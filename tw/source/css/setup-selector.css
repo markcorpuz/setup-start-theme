@@ -1,0 +1,83 @@
+.textsize-xs,
+.textsize-smaller,
+.textsize-reference {
+	@apply text-xs;
+}
+.textsize-sm,
+.textsize-small {
+	@apply text-sm;
+}
+.textsize-base {
+	@apply text-base;
+}
+.textsize-lg,
+.textsize-normal {
+	@apply text-lg;
+}
+.textsize-xl {
+	@apply text-xl;
+}
+.textsize-2xl,
+.textsize-medium,
+.textsize-intro {
+	@apply text-2xl;
+}
+.textsize-3xl {
+	@apply text-3xl;
+}
+.textsize-4xl,
+.textsize-large {
+	@apply text-4xl;
+}
+.textsize-5xl,
+.textsize-larger {
+	@apply text-5xl;
+}
+.textsize-6xl,
+.textsize-largest {
+	@apply text-6xl;
+}
+.textsize-7xl,
+.textsize-huge {
+	@apply text-7xl;
+}
+.textsize-8xl,
+.textsize-huge2x {
+	@apply text-8xl;
+}
+.textsize-9xl,
+.textsize-huge3x {
+	@apply text-9xl;
+}
+
+.textweight-light {
+	font-weight: 300;
+}
+.textweight-normal {
+	font-weight: 400;
+}
+.textweight-medium {
+	font-weight: 500;
+}
+.textweight-semibold {
+	font-weight: 600;
+}
+.textweight-bold {
+	font-weight: 700;
+}
+.textweight-extrabold {
+	font-weight: 800;
+}
+.textweight-black {
+	font-weight: 900;
+}
+
+.textstyle-round {
+	@apply font-round;
+}
+.textstyle-hard {
+	@apply font-hard;
+}
+.textstyle-serif {
+	@apply font-serif;
+}

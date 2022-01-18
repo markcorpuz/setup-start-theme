@@ -1,0 +1,11 @@
+.item.title {
+	@apply text-3xl mb-0;
+}
+
+.item.dateauthor {
+	@apply text-sm;
+}
+
+.item.excerpt {
+	@apply mt-4;
+}

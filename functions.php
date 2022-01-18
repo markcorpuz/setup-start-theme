@@ -28,8 +28,15 @@ function genesis_sample_localization_setup() {
 
 }
 
+// Sets Custom Loop.
+require_once( get_stylesheet_directory() . '/inc/loop.php' );
+require_once( get_stylesheet_directory() . '/inc/items.php' );
+
 // Adds helper functions.
 require_once get_stylesheet_directory() . '/lib/helper-functions.php';
+
+// Adds layout functions.
+require_once get_stylesheet_directory() . '/lib/functions/layout.php';
 
 // Adds image upload and color select to Customizer.
 require_once get_stylesheet_directory() . '/lib/customize.php';
@@ -45,6 +52,11 @@ require_once get_stylesheet_directory() . '/lib/woocommerce/woocommerce-output.p
 
 // Adds the Genesis Connect WooCommerce notice.
 require_once get_stylesheet_directory() . '/lib/woocommerce/woocommerce-notice.php';
+
+// Adds the Custom Functions.
+include_once( get_stylesheet_directory() . '/inc/markup.php' );
+include_once( get_stylesheet_directory() . '/inc/layout.php' );
+include_once( get_stylesheet_directory() . '/inc/credit.php' );
 
 add_action( 'after_setup_theme', 'genesis_child_gutenberg_support' );
 /**
@@ -89,6 +101,14 @@ function genesis_sample_enqueue_scripts_styles() {
 		);
 	}
 
+}
+
+/*
+ * Replace default Genesis Sample styles
+ */
+add_filter( 'stylesheet_uri', 'setup_start_replace_default_style_sheet' );
+function setup_start_replace_default_style_sheet() {
+	wp_enqueue_style( 'main', get_stylesheet_directory_uri() . '/assets/css/main.css' );
 }
 
 add_filter( 'body_class', 'genesis_sample_body_classes' );
@@ -213,7 +233,7 @@ add_action( 'genesis_header', 'genesis_do_nav', 12 );
 
 // Repositions the secondary navigation menu.
 remove_action( 'genesis_after_header', 'genesis_do_subnav' );
-add_action( 'genesis_footer', 'genesis_do_subnav', 10 );
+add_action( 'genesis_footer', 'genesis_do_subnav', 9 );
 
 add_filter( 'wp_nav_menu_args', 'genesis_sample_secondary_menu_args' );
 /**

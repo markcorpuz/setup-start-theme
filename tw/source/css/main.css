@@ -1,0 +1,34 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* ------ Add your CSS below this line (or @import your other CSS files). ------- */
+
+@import "version";
+@import "setup-base";
+@import "setup-base";
+@import "setup-gutenberg";
+@import "setup-selector";
+@import "setup-sitecontainer";
+@import "setup-siteinner";
+@import "setup-contentarea";
+@import "genesis-sample-gallery";
+@import "genesis-sample-avatar";
+@import "genesis-sample-genesis";
+@import "genesis-sample-search";
+@import "setup-title";
+@import "genesis-sample-base";
+@import "setup-siteheader";
+@import "setup-custom-logo";
+@import "setup-titlearea";
+@import "setup-nav-primary";
+@import "setup-nav-secondary";
+@import "genesis-sample-entry";
+@import "setup-entry";
+@import "setup-item";
+@import "genesis-sample-pagination";
+@import "genesis-sample-comment";
+@import "setup-content";
+@import "setup-layout";
+@import "genesis-sample-end";
+@import "setup-credit";

@@ -1,0 +1,28 @@
+.after-entry,
+.archive-description,
+.author-box,
+.comment-respond,
+.entry,
+.entry-comments,
+.entry-pings {
+	@apply mb-8;
+}
+
+.entry {
+	@apply mb-8;
+}
+
+.entry-title {
+	@apply text-3xl;
+	font-weight: 600;
+}
+
+.single .entry-title {
+	@apply text-5xl;
+	font-weight: 600;
+}
+
+.page .entry-title {
+	@apply text-5xl;
+	font-weight: 600;
+}

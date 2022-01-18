@@ -1,0 +1,6 @@
+.content-sidebar .content {
+	@apply w-full;
+}
+.content-sidebar .sidebar-primary {
+	@apply w-full;
+}

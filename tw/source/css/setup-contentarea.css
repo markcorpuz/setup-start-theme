@@ -1,0 +1,3 @@
+.content-area {
+	@apply max-w-screen-md mr-auto ml-auto;
+}

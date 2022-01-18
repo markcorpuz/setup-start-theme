@@ -18,7 +18,7 @@ function genesis_sample_enqueue_gutenberg_frontend_styles() {
 
 	wp_enqueue_style(
 		genesis_get_theme_handle() . '-gutenberg',
-		get_stylesheet_directory_uri() . '/lib/gutenberg/front-end.css',
+		get_stylesheet_directory_uri() . '/assets/css/front-end.css',
 		[ genesis_get_theme_handle() ],
 		genesis_get_theme_version()
 	);
@@ -87,7 +87,7 @@ function genesis_sample_blocks_body_classes( $classes ) {
 add_theme_support( 'editor-styles' );
 
 // Enqueue editor styles.
-add_editor_style( '/lib/gutenberg/style-editor.css' );
+add_editor_style( '/assets/css/style-editor.css' );
 
 // Adds support for block alignments.
 add_theme_support( 'align-wide' );
