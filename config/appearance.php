@@ -9,8 +9,8 @@
  */
 
 $genesis_sample_default_colors = [
-	'link'   => '#0073e5',
-	'accent' => '#0073e5',
+	'link'   => '#147FC4',
+	'accent' => '#147FC4',
 ];
 
 $genesis_sample_link_color = get_theme_mod(
@@ -48,6 +48,11 @@ return [
 	],
 	'editor-font-sizes'    => [
 		[
+			'name' => __( 'Tiny', 'setup-start' ),
+			'size' => 10,
+			'slug' => 'tiny',
+		],
+		[
 			'name' => __( 'Smaller', 'setup-start' ),
 			'size' => 12,
 			'slug' => 'smaller',
@@ -63,14 +68,19 @@ return [
 			'slug' => 'base',
 		],
 		[
-			'name' => __( 'Normal', 'setup-start' ),
+			'name' => __( 'Main', 'setup-start' ),
 			'size' => 18,
 			'slug' => 'normal',
 		],
 		[
 			'name' => __( 'Medium', 'setup-start' ),
-			'size' => 24,
+			'size' => 20,
 			'slug' => 'medium',
+		],
+		[
+			'name' => __( 'Medium2x', 'setup-start' ),
+			'size' => 24,
+			'slug' => 'medium2x',
 		],
 		[
 			'name' => __( 'Large', 'setup-start' ),
@@ -98,9 +108,9 @@ return [
 			'slug' => 'huge2x',
 		],
 		[
-			'name' => __( 'Huge3x', 'setup-start' ),
+			'name' => __( 'Gigantic', 'setup-start' ),
 			'size' => 128,
-			'slug' => 'huge3x',
+			'slug' => 'gigantic',
 		],
 	],
 ];

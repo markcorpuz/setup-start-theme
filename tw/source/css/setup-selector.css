@@ -1,53 +1,87 @@
-.textsize-xs,
-.textsize-smaller,
+h1 {
+	@apply text-h1;
+}
+h2 {
+	@apply text-h2;
+}
+h3 {
+	@apply text-h3;
+}
+h4 {
+	@apply text-h4;
+}
+h5 {
+	@apply text-h5;
+}
+h6 {
+	@apply text-h6;
+}
+
+.textsize-meta {
+	@apply text-meta;
+}
 .textsize-reference {
-	@apply text-xs;
+	@apply text-reference;
 }
-.textsize-sm,
-.textsize-small {
-	@apply text-sm;
+.textsize-intro {
+	@apply text-intro mb-intro;
 }
-.textsize-base {
+
+.textsize-tiny,
+body .has-tiny-font-size {
+	@apply text-tiny;
+}
+.textsize-smaller,
+body .has-smaller-font-size {
+	@apply text-smaller;
+}
+.textsize-small,
+body .has-small-font-size {
+	@apply text-small
+}
+.textsize-base,
+body .has-base-font-size {
 	@apply text-base;
 }
-.textsize-lg,
-.textsize-normal {
-	@apply text-lg;
+.textsize-main,
+body .has-main-font-size {
+	@apply text-main;
 }
-.textsize-xl {
-	@apply text-xl;
-}
-.textsize-2xl,
 .textsize-medium,
-.textsize-intro {
-	@apply text-2xl;
+body .has-medium-font-size {
+	@apply text-medium;
 }
-.textsize-3xl {
-	@apply text-3xl;
+.textsize-medium2x,
+body .has-medium-2-x-font-size {
+	@apply text-medium2x;
 }
-.textsize-4xl,
-.textsize-large {
-	@apply text-4xl;
+.textsize-large,
+body .has-large-font-size {
+	@apply text-large;
 }
-.textsize-5xl,
-.textsize-larger {
-	@apply text-5xl;
+.textsize-larger,
+body .has-larger-font-size {
+	@apply text-larger;
 }
-.textsize-6xl,
-.textsize-largest {
-	@apply text-6xl;
+.textsize-larger,
+body .has-larger-font-size {
+	@apply text-larger;
 }
-.textsize-7xl,
-.textsize-huge {
-	@apply text-7xl;
+.textsize-largest,
+body .has-largest-font-size {
+	@apply text-largest;
 }
-.textsize-8xl,
-.textsize-huge2x {
-	@apply text-8xl;
+.textsize-huge,
+body .has-huge-font-size {
+	@apply text-huge;
 }
-.textsize-9xl,
-.textsize-huge3x {
-	@apply text-9xl;
+.textsize-huge2x,
+body .has-huge-2-x-font-size {
+	@apply text-huge2x;
+}
+.textsize-gigantic,
+body .has-gigantic-font-size {
+	@apply text-gigantic;
 }
 
 .textweight-light {
@@ -80,4 +114,46 @@
 }
 .textstyle-serif {
 	@apply font-serif;
+}
+
+.section {
+	@apply mt-section;
+	@apply mb-section;
+}
+.section-top {
+	@apply mt-section;
+}
+.section-bottom {
+	@apply mb-section;
+}
+.section2 {
+	@apply mt-section2;
+	@apply mb-section2;
+}
+.section2-top {
+	@apply mt-section2;
+}
+.section2-bottom {
+	@apply mb-section2;
+}
+
+.section-line,
+body .wp-block-separator {
+	@apply border-t-0 border-b border-solid border-b-line;
+}
+
+.space-zero {
+	@apply m-0;
+}
+.space-zero-top {
+	@apply mt-0;
+}
+.space-zero-right {
+	@apply mr-0;
+}
+.space-zero-bottom {
+	@apply mb-0;
+}
+.space-zero-left {
+	@apply ml-0;
 }

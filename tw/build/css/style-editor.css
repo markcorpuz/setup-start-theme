@@ -127,67 +127,85 @@ p.has-small-font-size.has-drop-cap:not(:focus)::first-letter {
 	margin-right: 0.01em;
 }
 
-.textsize-xs, .textsize-smaller, .textsize-reference {
-	font-size: 0.75rem;
-	line-height: 1rem;
-}
-
-.textsize-sm, .textsize-small {
+.textsize-meta {
 	font-size: 0.875rem;
 	line-height: 1.25rem;
 }
 
-.textsize-base {
-	font-size: 1rem;
-	line-height: 1.5rem;
+.textsize-reference {
+	font-size: 0.75rem;
+	line-height: 1rem;
 }
 
-.textsize-lg, .textsize-normal {
-	font-size: 1.125rem;
-	line-height: 1.75rem;
-}
-
-.textsize-xl {
-	font-size: 1.25rem;
-	line-height: 1.75rem;
-}
-
-.textsize-2xl, .textsize-medium, .textsize-intro {
+.textsize-intro {
+	margin-bottom: 2rem;
 	font-size: 1.5rem;
 	line-height: 2rem;
 }
 
-.textsize-3xl {
-	font-size: 1.875rem;
-	line-height: 2.25rem;
+.textsize-tiny, body .has-tiny-font-size {
+	font-size: 0.625rem;
+	line-height: 0.8rem;
 }
 
-.textsize-4xl, .textsize-large {
+.textsize-smaller, body .has-smaller-font-size {
+	font-size: 0.75rem;
+	line-height: 1rem;
+}
+
+.textsize-small, body .has-small-font-size {
+	font-size: 0.875rem;
+	line-height: 1.25rem;
+}
+
+.textsize-base, body .has-base-font-size {
+	font-size: 1rem;
+	line-height: 1.5rem;
+}
+
+.textsize-main, body .has-main-font-size {
+	font-size: 1.125rem;
+	line-height: 1.75rem;
+	--tw-text-opacity: 1;
+	color: rgb(51 51 51 / var(--tw-text-opacity));
+}
+
+.textsize-medium, body .has-medium-font-size {
+	font-size: 1.25rem;
+	line-height: 1.75rem;
+}
+
+.textsize-medium2x, body .has-medium-2-x-font-size {
+	font-size: 1.5rem;
+	line-height: 2rem;
+}
+
+.textsize-large, body .has-large-font-size {
 	font-size: 2.25rem;
 	line-height: 2.5rem;
 }
 
-.textsize-5xl, .textsize-larger {
+.textsize-larger, body .has-larger-font-size {
 	font-size: 3rem;
 	line-height: 1;
 }
 
-.textsize-6xl, .textsize-largest {
+.textsize-largest, body .has-largest-font-size {
 	font-size: 3.75rem;
 	line-height: 1;
 }
 
-.textsize-7xl, .textsize-huge {
+.textsize-huge, body .has-huge-font-size {
 	font-size: 4.5rem;
 	line-height: 1;
 }
 
-.textsize-8xl, .textsize-huge2x {
+.textsize-huge2x, body .has-huge-2-x-font-size {
 	font-size: 6rem;
 	line-height: 1;
 }
 
-.textsize-9xl, .textsize-huge3x {
+.textsize-gigantic, body .has-gigantic-font-size {
 	font-size: 8rem;
 	line-height: 1;
 }
@@ -218,6 +236,37 @@ p.has-small-font-size.has-drop-cap:not(:focus)::first-letter {
 
 .fontweight-black {
 	font-weight: 900;
+}
+
+.section {
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+}
+
+.section-top {
+	margin-top: 4rem;
+}
+
+.section-bottom {
+	margin-bottom: 4rem;
+}
+
+.section2 {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.section2-top {
+	margin-top: 2rem;
+}
+
+.section2-bottom {
+	margin-bottom: 2rem;
+}
+
+.section-line,
+body .wp-block-separator {
+	border-bottom:  1px solid #999;
 }
 
 /* Background Color
@@ -513,5 +562,29 @@ table {
 
 .wp-block[data-align="full"] .wp-block-latest-posts {
 	padding: 0 30px;
+}
+
+/*
+Group Block
+*/
+
+.wp-block-group.inner-container_small > .wp-block-group__inner-container,
+.wp-block-group.inner-container_medium > .wp-block-group__inner-container,
+.wp-block-group.inner-container_large > .wp-block-group__inner-container, 
+.wp-block-group.inner-container_xlarge > .wp-block-group__inner-container {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wp-block-group.inner-container_small > .wp-block-group__inner-container {
+	max-width: 32rem;
+}
+
+.wp-block-group.inner-container_medium > .wp-block-group__inner-container {
+	max-width: 48rem;
+}
+
+.wp-block-group.inner-container_large > .wp-block-group__inner-container {
+	max-width: 64rem;
 }
 /*# sourceMappingURL=style-editor.css.map */

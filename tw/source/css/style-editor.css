@@ -79,35 +79,23 @@ h6 {
 	font-weight: 400;
 	margin: 0 0 1.125rem;
 }
-
 h1 {
-	font-size: 3rem;
-	line-height: 1;
+	@apply text-h1;
 }
-
 h2 {
-	font-size: 2.25rem;
-	line-height: 2.5rem;
+	@apply text-h2;
 }
-
 h3 {
-	font-size: 1.5rem;
-	line-height: 2rem;
+	@apply text-h3;
 }
-
 h4 {
-	font-size: 1.25rem;
-	line-height: 1.75rem;
+	@apply text-h4;
 }
-
 h5 {
-	font-size: 1.125rem;
-	line-height: 1.75rem;
+	@apply text-h5;
 }
-
 h6 {
-	font-size: 1rem;
-	line-height: 1.5rem;
+	@apply text-h6;
 }
 
 .editor-post-title__block .editor-post-title__input {
@@ -127,56 +115,71 @@ p.has-small-font-size.has-drop-cap:not(:focus)::first-letter {
 	margin-right: 0.01em;
 }
 
-.textsize-xs,
-.textsize-smaller,
+.textsize-meta {
+	@apply text-meta;
+}
 .textsize-reference {
-	@apply text-xs;
+	@apply text-reference;
 }
-.textsize-sm,
-.textsize-small {
-	@apply text-sm;
+.textsize-intro {
+	@apply text-intro mb-intro;
 }
-.textsize-base {
+
+.textsize-tiny,
+body .has-tiny-font-size {
+	@apply text-tiny;
+}
+.textsize-smaller,
+body .has-smaller-font-size {
+	@apply text-smaller;
+}
+.textsize-small,
+body .has-small-font-size {
+	@apply text-small
+}
+.textsize-base,
+body .has-base-font-size {
 	@apply text-base;
 }
-.textsize-lg,
-.textsize-normal {
-	@apply text-lg;
+.textsize-main,
+body .has-main-font-size {
+	@apply text-main;
 }
-.textsize-xl {
-	@apply text-xl;
-}
-.textsize-2xl,
 .textsize-medium,
-.textsize-intro {
-	@apply text-2xl;
+body .has-medium-font-size {
+	@apply text-medium;
 }
-.textsize-3xl {
-	@apply text-3xl;
+.textsize-medium2x,
+body .has-medium-2-x-font-size {
+	@apply text-medium2x;
 }
-.textsize-4xl,
-.textsize-large {
-	@apply text-4xl;
+.textsize-large,
+body .has-large-font-size {
+	@apply text-large;
 }
-.textsize-5xl,
-.textsize-larger {
-	@apply text-5xl;
+.textsize-larger,
+body .has-larger-font-size {
+	@apply text-larger;
 }
-.textsize-6xl,
-.textsize-largest {
-	@apply text-6xl;
+.textsize-larger,
+body .has-larger-font-size {
+	@apply text-larger;
 }
-.textsize-7xl,
-.textsize-huge {
-	@apply text-7xl;
+.textsize-largest,
+body .has-largest-font-size {
+	@apply text-largest;
 }
-.textsize-8xl,
-.textsize-huge2x {
-	@apply text-8xl;
+.textsize-huge,
+body .has-huge-font-size {
+	@apply text-huge;
 }
-.textsize-9xl,
-.textsize-huge3x {
-	@apply text-9xl;
+.textsize-huge2x,
+body .has-huge-2-x-font-size {
+	@apply text-huge2x;
+}
+.textsize-gigantic,
+body .has-gigantic-font-size {
+	@apply text-gigantic;
 }
 
 .fontweight-light {
@@ -199,6 +202,32 @@ p.has-small-font-size.has-drop-cap:not(:focus)::first-letter {
 }
 .fontweight-black {
 	@apply font-black;
+}
+
+.section {
+	@apply mt-section;
+	@apply mb-section;
+}
+.section-top {
+	@apply mt-section;
+}
+.section-bottom {
+	@apply mb-section;
+}
+.section2 {
+	@apply mt-section2;
+	@apply mb-section2;
+}
+.section2-top {
+	@apply mt-section2;
+}
+.section2-bottom {
+	@apply mb-section2;
+}
+
+.section-line,
+body .wp-block-separator {
+	border-bottom:  1px solid #999;
 }
 
 /* Background Color
@@ -494,4 +523,25 @@ table {
 
 .wp-block[data-align="full"] .wp-block-latest-posts {
 	padding: 0 30px;
+}
+
+/*
+Group Block
+*/
+
+.wp-block-group.inner-container_small > .wp-block-group__inner-container,
+.wp-block-group.inner-container_medium > .wp-block-group__inner-container,
+.wp-block-group.inner-container_large > .wp-block-group__inner-container, 
+.wp-block-group.inner-container_xlarge > .wp-block-group__inner-container {
+	margin-left: auto;
+	margin-right: auto;
+}
+.wp-block-group.inner-container_small > .wp-block-group__inner-container {
+	@apply max-w-small;
+}
+.wp-block-group.inner-container_medium > .wp-block-group__inner-container {
+	@apply max-w-medium;
+}
+.wp-block-group.inner-container_large > .wp-block-group__inner-container {
+	@apply max-w-large;
 }

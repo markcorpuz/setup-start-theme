@@ -1,0 +1,24 @@
+.icon-social,
+.icon-link {
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background-size: contain;
+}
+.icon-social {}
+
+.icon-social.icon-facebook {
+	background-image: url("/wp-content/themes/setup-start/assets/icons/facebook.svg");
+}
+
+.icon-social.icon-twitter {
+	background-image: url("/wp-content/themes/setup-start/assets/icons/twitter.svg");
+}
+
+.icon-social.icon-youtube {
+	background-image: url("/wp-content/themes/setup-start/assets/icons/youtube.svg");
+}
+
+.icon-link.icon-video {
+	background-image: url("/wp-content/themes/setup-start/assets/icons/video.svg");
+}

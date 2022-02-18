@@ -39,35 +39,26 @@
 	*/
 }
 
-body .has-smaller-font-size {
-	@apply text-xs;
+.wp-block-group {}
+.wp-block-group > .wp-block-group__inner-container {}
+
+.wp-block-group.inner-container_small > .wp-block-group__inner-container,
+.wp-block-group.inner-container_medium > .wp-block-group__inner-container,
+.wp-block-group.inner-container_large > .wp-block-group__inner-container, 
+.wp-block-group.inner-container_xlarge > .wp-block-group__inner-container {
+	margin-left: auto;
+	margin-right: auto;
 }
-body .has-small-font-size {
-	@apply text-sm;
+.wp-block-group.inner-container_small > .wp-block-group__inner-container {
+	@apply max-w-small;
 }
-body .has-normal-font-size {
-	@apply text-lg;
+.wp-block-group.inner-container_medium > .wp-block-group__inner-container {
+	@apply max-w-medium;
 }
-body .has-medium-font-size {
-	@apply text-2xl;
+.wp-block-group.inner-container_large > .wp-block-group__inner-container {
+	@apply max-w-large;
 }
-body .has-large-font-size {
-	@apply text-4xl;
-}
-body .has-larger-font-size {
-	@apply text-5xl;
-}
-body .has-largest-font-size {
-	@apply text-6xl;
-}
-body .has-huge-font-size {
-	@apply text-7xl;
-}
-body .has-huge2x-font-size,
-body .has-huge-2-x-font-size {
-	@apply text-8xl;
-}
-body .has-huge3x-font-size,
-body .has-huge-3-x-font-size {
-	@apply text-9xl;
+
+body .wp-block-separator {
+	border-bottom: 0;
 }

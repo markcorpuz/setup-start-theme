@@ -251,7 +251,7 @@
 	text-align: left;
 	text-transform: uppercase;
 	font-weight: 700;
-	left: 0.5rem;
+	right: 2rem;
 	top: 0.5rem;
 }
 
@@ -268,12 +268,15 @@ button.menu-toggle {
 	transition: none;
 }
 
+.site-header .menu-toggle.dashicons-before::before {
+	@apply text-3xl;
+	width: 30px;
+	height: 30px;
+}
+
 .site-header .menu-toggle::before {
-	float: left;
-	margin-right: 5px;
 	position: relative;
 	text-rendering: auto;
-	top: 1px;
 }
 
 /*

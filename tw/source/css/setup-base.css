@@ -40,40 +40,56 @@ html {
 }
 
 body {
-	@apply font-hard bg-white text-maintext text-lg font-normal leading-relaxed;
+	@apply 
+		text-main
+		font-main;
+	background-color: white;
 	margin: 0;
 	overflow-x: hidden;
 }
 
 a {
-	@apply text-mainlink no-underline transition-all cursor-pointer;
+	@apply 
+	text-link
+	hover:text-hover 
+	no-underline 
+	transition-all 
+	cursor-pointer;
 }
 
 a:focus,
 a:hover {
-	@apply text-mainlinkeffect underline cursor-pointer;
+	@apply 
+	underline 
+	cursor-pointer;
 }
 
 b,
 strong {
-	@apply font-bold;
+	@apply 
+	font-strong;
 }
 
 p {
-	@apply mt-0 mr-0 mb-5 ml-0 p-0;
+	@apply 
+	mb-p;
 }
 
 ol,
 ul {
-	@apply m-0 p-0;
+	@apply 
+	mb-list;
 }
 
 li {
-	@apply list-none;
+	@apply 
+	list-none;
 }
 
 hr {
-	@apply border-0 border-collapse border-b border-current clear-both text-maindivider my-5 mx-auto;
+	@apply 
+	text-line
+	border-0 border-collapse border-b border-current clear-both my-5 mx-auto;
 }
 
 blockquote,
@@ -97,31 +113,40 @@ h3,
 h4,
 h5,
 h6 {
-	@apply font-hard font-normal leading-tight mt-0 mr-0 mb-5 ml-0;
+	@apply 
+	text-heading
+	font-heading
+	mt-0 mr-0 mb-5 ml-0;
 }
 
 h1 {
-	@apply text-5xl;
+	@apply
+	text-h1;
 }
 
 h2 {
-	@apply text-4xl;
+	@apply
+	text-h2;
 }
 
 h3 {
-	@apply text-2xl;
+	@apply
+	text-h3;
 }
 
 h4 {
-	@apply text-xl;
+	@apply
+	text-h4;
 }
 
 h5 {
-	@apply text-lg;
+	@apply
+	text-h5;
 }
 
 h6 {
-	@apply text-base;
+	@apply
+	text-h6;
 }
 
 embed,
@@ -171,7 +196,13 @@ th {
 input,
 select,
 textarea {
-	@apply bg-white border border-solid border-gray-300 text-gray-900 text-lg font-normal p-4 w-full;
+	@apply 
+	bg-white 
+	border border-solid border-gray-300 
+	text-gray-900 text-lg 
+	font-normal 
+	p-4 
+	w-full;
 }
 
 input:focus,
@@ -200,7 +231,19 @@ input[type="submit"],
 .site-container div.wpforms-container-full .wpforms-form input[type="submit"],
 .site-container div.wpforms-container-full .wpforms-form button[type="submit"],
 .button {
-	@apply bg-gray-900 border-0 rounded-md text-white cursor-pointer text-base font-semibold px-4 py-8 text-center no-underline whitespace-normal w-auto;
+	@apply 
+	bg-gray-900 
+	border-0 
+	rounded-md 
+	text-white 
+	cursor-pointer 
+	text-base 
+	font-semibold 
+	px-4 py-8 
+	text-center 
+	no-underline 
+	whitespace-normal 
+	w-auto;
 }
 
 button:focus,
@@ -217,7 +260,7 @@ input[type="submit"]:hover,
 .site-container div.wpforms-container-full .wpforms-form button[type="submit"]:hover,
 .button:focus,
 .button:hover {
-	@apply bg-mainlinkeffect border-0 text-white;
+	@apply border-0 text-white;
 }
 
 .entry-content .button:focus,
@@ -259,7 +302,17 @@ input[type="search"]::-webkit-search-results-button {
 .screen-reader-text:focus,
 .screen-reader-shortcut:focus,
 .widget_search input[type="submit"]:focus {
-	@apply bg-white shadow-sm text-gray-900 block text-base font-semibold h-auto py-4 px-1.5 no-underline w-auto;
+	@apply 
+	bg-white 
+	shadow-sm 
+	text-gray-900 
+	block 
+	text-base 
+	font-semibold 
+	h-auto 
+	py-4 px-1.5 
+	no-underline 
+	w-auto;
 	clip: auto !important;
 	z-index: 100000; /* Above WP toolbar. */
 }
