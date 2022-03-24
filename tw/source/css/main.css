@@ -6,9 +6,11 @@
 
 @import "version";
 @import "setup-base";
-@import "setup-base";
 @import "setup-gutenberg";
 @import "setup-selector";
+@import "setup-selector-section";
+@import "setup-selector-spacing";
+@import "setup-selector-color";
 @import "setup-sitecontainer";
 @import "setup-siteinner";
 @import "setup-contentarea";

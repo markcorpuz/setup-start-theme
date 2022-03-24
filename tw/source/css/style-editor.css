@@ -214,20 +214,26 @@ body .has-gigantic-font-size {
 .section-bottom {
 	@apply mb-section;
 }
-.section2 {
-	@apply mt-section2;
-	@apply mb-section2;
-}
-.section2-top {
-	@apply mt-section2;
-}
-.section2-bottom {
-	@apply mb-section2;
-}
 
 .section-line,
 body .wp-block-separator {
 	border-bottom:  1px solid #999;
+}
+
+.space-zero {
+	@apply m-0;
+}
+.space-zero-top {
+	@apply mt-0;
+}
+.space-zero-right {
+	@apply mr-0;
+}
+.space-zero-bottom {
+	@apply mb-0;
+}
+.space-zero-left {
+	@apply ml-0;
 }
 
 /* Background Color

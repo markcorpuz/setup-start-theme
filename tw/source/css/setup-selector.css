@@ -116,44 +116,27 @@ body .has-gigantic-font-size {
 	@apply font-serif;
 }
 
-.section {
-	@apply mt-section;
-	@apply mb-section;
+.textcolor-black {
+	@apply text-black;
 }
-.section-top {
-	@apply mt-section;
+.textcolor-darker {
+	@apply text-darker;
 }
-.section-bottom {
-	@apply mb-section;
+.textcolor-dark {
+	@apply text-dark;
 }
-.section2 {
-	@apply mt-section2;
-	@apply mb-section2;
+.textcolor-mid {
+	@apply text-mid;
 }
-.section2-top {
-	@apply mt-section2;
+.textcolor-light {
+	@apply text-light;
 }
-.section2-bottom {
-	@apply mb-section2;
+.textcolor-lighter {
+	@apply text-lighter;
 }
-
-.section-line,
-body .wp-block-separator {
-	@apply border-t-0 border-b border-solid border-b-line;
+.textcolor-lightest {
+	@apply text-lightest;
 }
-
-.space-zero {
-	@apply m-0;
-}
-.space-zero-top {
-	@apply mt-0;
-}
-.space-zero-right {
-	@apply mr-0;
-}
-.space-zero-bottom {
-	@apply mb-0;
-}
-.space-zero-left {
-	@apply ml-0;
+.textcolor-white {
+	@apply text-white;
 }

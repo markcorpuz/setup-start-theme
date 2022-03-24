@@ -46,8 +46,8 @@
 .wp-block-group.inner-container_medium > .wp-block-group__inner-container,
 .wp-block-group.inner-container_large > .wp-block-group__inner-container, 
 .wp-block-group.inner-container_xlarge > .wp-block-group__inner-container {
-	margin-left: auto;
 	margin-right: auto;
+	margin-left: auto;
 }
 .wp-block-group.inner-container_small > .wp-block-group__inner-container {
 	@apply max-w-small;
@@ -60,5 +60,99 @@
 }
 
 body .wp-block-separator {
-	border-bottom: 0;
+	@apply bg-main h-line;
+	max-width: 150px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 0;
+}
+body .wp-block-separator.section-line2x,
+body .wp-block-separator.section-line2x-top {
+	@apply h-line2x;
+}
+body .wp-block-separator.section-line5x,
+body .wp-block-separator.section-line5x-top {
+	@apply h-line5x;
+}
+body .wp-block-separator.section-line10x,
+body .wp-block-separator.section-line10x-top {
+	@apply h-line10x;
+}
+
+.wp-block-spacer.height-px {
+	@apply h-px !important;
+}
+.wp-block-spacer.height-2px {
+	@apply h-2px !important;
+}
+.wp-block-spacer.height-5px {
+	@apply h-5px !important;
+}
+.wp-block-spacer.height-tiny {
+	@apply h-tiny !important;
+}
+.wp-block-spacer.height-10px {
+	@apply h-10px !important;
+}
+.wp-block-spacer.height-smaller {
+	@apply h-smaller !important;
+}
+.wp-block-spacer.height-small {
+	@apply h-small !important;
+}
+.wp-block-spacer.height-base {
+	@apply h-base !important;
+}
+.wp-block-spacer.height-main {
+	@apply h-main !important;
+}
+.wp-block-spacer.height-medium {
+	@apply h-medium !important;
+}
+.wp-block-spacer.height-large {
+	@apply h-large !important;
+}
+.wp-block-spacer.height-larger {
+	@apply h-larger !important;
+}
+.wp-block-spacer.height-largest {
+	@apply h-largest !important;
+}
+.wp-block-spacer.height-huge {
+	@apply h-huge !important;
+}
+.wp-block-spacer.height-huge2x {
+	@apply h-huge2x !important;
+}
+
+body .wp-block-separator.section-black {
+	@apply bg-main;
+}
+body .wp-block-separator.section-black {
+	@apply bg-black;
+}
+body .wp-block-separator.section-darker {
+	@apply bg-darker;
+}
+body .wp-block-separator.section-dark {
+	@apply bg-dark;
+}
+body .wp-block-separator.section-mid {
+	@apply bg-mid;
+}
+body .wp-block-separator.section-light {
+	@apply bg-light;
+}
+body .wp-block-separator.section-lighter {
+	@apply bg-lighter;
+}
+body .wp-block-separator.section-lightest {
+	@apply bg-lightest;
+}
+body .wp-block-separator.section-white {
+	@apply bg-white;
+}
+
+body .wp-block-separator.is-style-wide {
+	max-width: 100%;
 }

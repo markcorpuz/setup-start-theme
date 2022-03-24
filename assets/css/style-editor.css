@@ -239,34 +239,41 @@ p.has-small-font-size.has-drop-cap:not(:focus)::first-letter {
 }
 
 .section {
-	margin-top: 4rem;
-	margin-bottom: 4rem;
+	margin-top: 1.25rem;
+	margin-bottom: 1.25rem;
 }
 
 .section-top {
-	margin-top: 4rem;
+	margin-top: 1.25rem;
 }
 
 .section-bottom {
-	margin-bottom: 4rem;
-}
-
-.section2 {
-	margin-top: 2rem;
-	margin-bottom: 2rem;
-}
-
-.section2-top {
-	margin-top: 2rem;
-}
-
-.section2-bottom {
-	margin-bottom: 2rem;
+	margin-bottom: 1.25rem;
 }
 
 .section-line,
 body .wp-block-separator {
 	border-bottom:  1px solid #999;
+}
+
+.space-zero {
+	margin: 0px;
+}
+
+.space-zero-top {
+	margin-top: 0px;
+}
+
+.space-zero-right {
+	margin-right: 0px;
+}
+
+.space-zero-bottom {
+	margin-bottom: 0px;
+}
+
+.space-zero-left {
+	margin-left: 0px;
 }
 
 /* Background Color

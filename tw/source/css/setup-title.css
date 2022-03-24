@@ -3,20 +3,20 @@
 .archive-description .entry-title,
 .archive-title,
 .author-box-title {
-	font-size: 20px;
+	@apply text-main text-medium;
 	font-weight: 600;
 	margin-bottom: 10px;
 }
 
 .entry-title a,
 .sidebar .widget-title a {
-	color: #333;
+	@apply text-link;
 	text-decoration: none;
 }
 
 .entry-title a:focus,
 .entry-title a:hover {
-	color: #0073e5;
+	@apply text-hover;
 }
 
 .widget-title {

@@ -1,0 +1,35 @@
+.background-main {
+	@apply bg-main;
+}
+
+.background-black {
+	@apply bg-black;
+}
+
+.background-darker {
+	@apply bg-darker;
+}
+
+.background-dark {
+	@apply bg-dark;
+}
+
+.background-mid {
+	@apply bg-mid;
+}
+
+.background-light {
+	@apply bg-light;
+}
+
+.background-lighter {
+	@apply bg-lighter;
+}
+
+.background-lightest {
+	@apply bg-lightest;
+}
+
+.background-white {
+	@apply bg-white;
+}
