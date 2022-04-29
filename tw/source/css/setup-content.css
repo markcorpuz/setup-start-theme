@@ -1,0 +1,79 @@
+.entry-title {
+	@apply
+		text-medium2x largescreen:text-medium3x
+		font-heading;
+}
+
+.entry-title a {
+	@apply
+		text-main-link
+		no-underline;
+}
+
+.entry-title a:hover,
+.entry-title a:focus,
+.entry-title a:active {
+	@apply 
+		text-main-hover;
+}
+
+.single .entry-title,
+.page .entry-title {
+	@apply 
+		text-medium3x smallscreen:text-large largescreen:text-larger 
+		font-heading 
+		mb-large;
+}
+
+.archive-title {
+	@apply 
+		text-medium3x smallscreen:text-large largescreen:text-larger 
+		font-heading 
+		mb-0;
+}
+
+.archive-description {
+	@apply 
+		text-medium smallscreen:text-medium2x 
+		font-intro 
+		mb-large;
+}
+
+.archive-description p {
+	@apply 
+		mt-tiny;
+}
+.archive-description p:last-child {
+	@apply
+		mb-0;
+}
+
+.logged-in-as {
+	@apply 
+		text-meta 
+		font-meta 
+		m-0;
+}
+
+.widget-title {
+	@apply 
+		text-small 
+		font-heading 
+		mb-medium;
+}
+
+.sidebar .widget-title a {
+	@apply 
+		text-link
+		no-underline;
+}
+
+.comment-form-comment {
+	margin-top: 1rem;
+}
+
+.entry-meta {}
+
+.entry-author {}
+
+a.entry-author-link {}

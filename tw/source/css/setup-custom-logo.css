@@ -1,0 +1,20 @@
+.wp-custom-logo .custom-logo-link {}
+
+.wp-custom-logo .custom-logo-link img {
+	display: block;
+	max-width:400px;
+	max-height: 50px;
+	width: auto;
+	height: auto;
+}
+
+.wp-custom-logo .site-title,
+.wp-custom-logo .site-description {
+	border: 0;
+	clip: rect(0, 0, 0, 0);
+	height: 1px;
+	overflow: hidden;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important;
+}

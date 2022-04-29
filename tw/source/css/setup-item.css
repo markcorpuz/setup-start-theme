@@ -1,0 +1,18 @@
+.item.title {
+	@apply text-medium smallscreen:text-medium2x largescreen:text-medium3x mb-0;
+}
+
+.item.dateauthor {
+	@apply 
+		text-meta
+		font-meta
+		mt-tiny;
+}
+.item.dateauthor a {
+	@apply
+		hover:text-meta-hover;
+}
+
+.item.excerpt {
+	@apply mt-4;
+}

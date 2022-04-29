@@ -1,0 +1,284 @@
+.space-px {
+	@apply m-px;
+}
+.space-2px {
+	@apply m-2px;
+}
+.space-5px {
+	@apply m-5px;
+}
+.space-tiny {
+	@apply m-tiny;
+}
+.space-smaller {
+	@apply m-smaller;
+}
+.space-small {
+	@apply m-small;
+}
+.space-base {
+	@apply m-base;
+}
+.space {
+	@apply m-main;
+}
+.space-medium {
+	@apply m-medium;
+}
+.space-large {
+	@apply m-large;
+}
+.space-larger {
+	@apply m-larger;
+}
+.space-largest {
+	@apply m-largest;
+}
+.space-huge {
+	@apply m-huge;
+}
+.space-huge2x {
+	@apply m-huge2x;
+}
+
+.space-px-top {
+	@apply mt-px;
+}
+.space-px-right {
+	@apply mr-px;
+}
+.space-px-bottom {
+	@apply mb-px;
+}
+.space-px-left {
+	@apply ml-px;
+}
+.space-2px-top {
+	@apply mt-2px;
+}
+.space-2px-right {
+	@apply mr-2px;
+}
+.space-2px-bottom {
+	@apply mb-2px;
+}
+.space-2px-left {
+	@apply ml-2px;
+}
+.space-5px-top {
+	@apply mt-5px;
+}
+.space-5px-right {
+	@apply mr-5px;
+}
+.space-5px-bottom {
+	@apply mb-5px;
+}
+.space-5px-left {
+	@apply ml-5px;
+}
+.space-tiny-top {
+	@apply mt-tiny;
+}
+.space-tiny-right {
+	@apply mr-tiny;
+}
+.space-tiny-bottom {
+	@apply mb-tiny;
+}
+.space-tiny-left {
+	@apply ml-tiny;
+}
+.space-smaller-top {
+	@apply mt-smaller;
+}
+.space-smaller-right {
+	@apply mr-smaller;
+}
+.space-smaller-bottom {
+	@apply mb-smaller;
+}
+.space-smaller-left {
+	@apply ml-smaller;
+}
+.space-small-top {
+	@apply mt-small;
+}
+.space-small-right {
+	@apply mr-small;
+}
+.space-small-bottom {
+	@apply mb-small;
+}
+.space-small-left {
+	@apply ml-small;
+}
+.space-base-top {
+	@apply mt-base;
+}
+.space-base-right {
+	@apply mr-base;
+}
+.space-base-bottom {
+	@apply mb-base;
+}
+.space-base-left {
+	@apply ml-base;
+}
+.space-top {
+	@apply mt-main;
+}
+.space-right {
+	@apply mr-main;
+}
+.space-bottom {
+	@apply mb-main;
+}
+.space-left {
+	@apply ml-main;
+}
+.space-medium-top {
+	@apply mt-medium;
+}
+.space-medium-right {
+	@apply mr-medium;
+}
+.space-medium-bottom {
+	@apply mb-medium;
+}
+.space-medium-left {
+	@apply ml-medium;
+}
+.space-large-top {
+	@apply mt-large;
+}
+.space-large-right {
+	@apply mr-large;
+}
+.space-large-bottom {
+	@apply mb-large;
+}
+.space-large-left {
+	@apply ml-large;
+}
+.space-larger-top {
+	@apply mt-larger;
+}
+.space-larger-right {
+	@apply mr-larger;
+}
+.space-larger-bottom {
+	@apply mb-larger;
+}
+.space-larger-left {
+	@apply ml-larger;
+}
+.space-largest-top {
+	@apply mt-largest;
+}
+.space-largest-right {
+	@apply mr-largest;
+}
+.space-largest-bottom {
+	@apply mb-largest;
+}
+.space-largest-left {
+	@apply ml-largest;
+}
+.space-huge-top {
+	@apply mt-huge;
+}
+.space-huge-right {
+	@apply mr-huge;
+}
+.space-huge-bottom {
+	@apply mb-huge;
+}
+.space-huge-left {
+	@apply ml-huge;
+}
+.space-huge2x-top {
+	@apply mt-huge2x;
+}
+.space-huge2x-right {
+	@apply mr-huge2x;
+}
+.space-huge2x-bottom {
+	@apply mb-huge2x;
+}
+.space-huge2x-left {
+	@apply ml-huge2x;
+}
+
+
+.spacein-px {
+	@apply p-px;
+}
+.spacein-5px {
+	@apply p-5px;
+}
+.spacein-tiny {
+	@apply p-tiny;
+}
+.spacein-smaller {
+	@apply p-smaller;
+}
+.spacein-small {
+	@apply p-small;
+}
+.spacein-base {
+	@apply p-base;
+}
+.spacein {
+	@apply p-main;
+}
+.spacein-medium {
+	@apply p-medium;
+}
+.spacein-large {
+	@apply p-large;
+}
+.spacein-larger {
+	@apply p-larger;
+}
+.spacein-largest {
+	@apply p-largest;
+}
+.spacein-huge {
+	@apply p-huge;
+}
+.spacein-huge2x {
+	@apply p-huge2x;
+}
+
+.space-zero {
+	@apply m-0;
+}
+.space-zero-top {
+	@apply mt-0;
+}
+.space-zero-right {
+	@apply mr-0;
+}
+.space-zero-bottom {
+	@apply mb-0;
+}
+.space-zero-left {
+	@apply ml-0;
+}
+
+.spacein-zero {
+	@apply p-0;
+}
+.spacein-zero-top {
+	@apply pt-0;
+}
+.spacein-zero-right {
+	@apply pr-0;
+}
+.spacein-zero-bottom {
+	@apply pb-0;
+}
+.spacein-zero-left {
+	@apply pl-0;
+}

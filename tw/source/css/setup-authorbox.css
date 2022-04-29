@@ -1,0 +1,20 @@
+.author-box {
+	@apply 
+		mb-large
+		p-medium3x;
+}
+
+.author-box p:last-child {
+	@apply
+		mb-0;
+}
+
+.author-box-title {
+	@apply 
+		text-medium largescreen:text-medium2x font-heading;
+}
+
+.author-box-content {
+	@apply 
+		text-base largescreen:text-main font-main;
+}

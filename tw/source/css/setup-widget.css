@@ -1,0 +1,47 @@
+.widget-title {}
+
+.sidebar .widget-title a {}
+
+.widget {
+	@apply
+		mb-large;
+}
+
+.widget p:last-child,
+.widget ul > li:last-of-type {
+	@apply
+		mb-0;
+}
+
+.widget ul > li {
+	margin-bottom: 10px;
+}
+
+.widget ul > li:last-of-type {
+	padding-bottom: 0;
+}
+
+.widget ol > li {
+	@apply
+		pl-main;
+	list-style-position: inside;
+	list-style-type: decimal;
+	text-indent: -20px;
+}
+
+.widget li li {
+	@apply
+		m-0
+		ml-main
+		p-0
+		border-0;
+}
+
+.widget_calendar table {
+	width: 100%;
+}
+
+.widget_calendar td,
+.widget_calendar th {
+	text-align: center;
+}

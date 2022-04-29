@@ -1,0 +1,180 @@
+.section-tiny {
+	@apply mt-tiny;
+	@apply mb-tiny;
+}
+
+.section-smaller {
+	@apply mt-smaller;
+	@apply mb-smaller;
+}
+
+.section-small {
+	@apply mt-small;
+	@apply mb-small;
+}
+
+.section-main {
+	@apply mt-main;
+	@apply mb-main;
+}
+
+.section {
+	@apply mt-section;
+	@apply mb-section;
+}
+
+.section-medium {
+	@apply mt-medium;
+	@apply mb-medium;
+}
+
+.section-large {
+	@apply mt-large;
+	@apply mb-large;
+}
+
+.section-larger {
+	@apply mt-larger;
+	@apply mb-larger;
+}
+
+.section-largest {
+	@apply mt-largest;
+	@apply mb-largest;
+}
+
+.section-huge {
+	@apply mt-huge;
+	@apply mb-huge;
+}
+
+.section-huge2x {
+	@apply mt-huge2x;
+	@apply mb-huge2x;
+}
+
+.section-line {
+	@apply border-b-line border-solid border-t-0;
+}
+.section-line2x {
+	@apply border-b-line2x border-solid border-t-0;
+}
+.section-line5x {
+	@apply border-b-line5x border-solid border-t-0;
+}
+.section-line10x {
+	@apply border-b-line10x border-solid border-t-0;
+}
+
+.section-line-top {
+	@apply border-t-line border-solid border-b-0;
+}
+.section-line2x-top {
+	@apply border-t-line2x border-solid border-b-0;
+}
+.section-line5x-top {
+	@apply border-t-line5x border-solid border-b-0;
+}
+.section-line10x-top {
+	@apply border-t-line10x border-solid border-b-0;
+}
+
+.section-line,
+.section-line2x,
+.section-line5x,
+.section-line10x,
+.section-line-top,
+.section-line2x-top,
+.section-line5x-top,
+.section-line10x-top {
+	@apply border-main;
+}
+
+.section-line.section-black,
+.section-line2x.section-black,
+.section-line5x.section-black,
+.section-line10x.section-black,
+.section-line-top.section-black,
+.section-line2x-top.section-black,
+.section-line5x-top.section-black,
+.section-line10x-top.section-black {
+	@apply border-black;
+}
+
+.section-line.section-darker,
+.section-line2x.section-darker,
+.section-line5x.section-darker,
+.section-line10x.section-darker,
+.section-line-top.section-darker,
+.section-line2x-top.section-darker,
+.section-line5x-top.section-darker,
+.section-line10x-top.section-darker {
+	@apply border-darker;
+}
+
+.section-line.section-dark,
+.section-line2x.section-dark,
+.section-line5x.section-dark,
+.section-line10x.section-dark,
+.section-line-top.section-dark,
+.section-line2x-top.section-dark,
+.section-line5x-top.section-dark,
+.section-line10x-top.section-dark,
+.wp-block-separator {
+	@apply border-dark;
+}
+
+.section-line.section-mid,
+.section-line2x.section-mid,
+.section-line5x.section-mid,
+.section-line10x.section-mid,
+.section-line-top.section-mid,
+.section-line2x-top.section-mid,
+.section-line5x-top.section-mid,
+.section-line10x-top.section-mid {
+	@apply border-mid;
+}
+
+.section-line.section-light,
+.section-line2x.section-light,
+.section-line5x.section-light,
+.section-line10x.section-light,
+.section-line-top.section-light,
+.section-line2x-top.section-light,
+.section-line5x-top.section-light,
+.section-line10x-top.section-light {
+	@apply border-light;
+}
+
+.section-line.section-lighter,
+.section-line2x.section-lighter,
+.section-line5x.section-lighter,
+.section-line10x.section-lighter,
+.section-line-top.section-lighter,
+.section-line2x-top.section-lighter,
+.section-line5x-top.section-lighter,
+.section-line10x-top.section-lighter {
+	@apply border-lighter;
+}
+
+.section-line.section-lightest,
+.section-line2x.section-lightest,
+.section-line5x.section-lightest,
+.section-line10x.section-lightest,
+.section-line-top.section-lightest,
+.section-line2x-top.section-lightest,
+.section-line5x-top.section-lightest,
+.section-line10x-top.section-lightest {
+	@apply border-lightest;
+}
+
+.section-line.section-white,
+.section-line2x.section-white,
+.section-line5x.section-white,
+.section-line10x.section-white,
+.section-line-top.section-white,
+.section-line2x-top.section-white,
+.section-line5x-top.section-white,
+.section-line10x-top.section-white {
+	@apply border-white;
+}

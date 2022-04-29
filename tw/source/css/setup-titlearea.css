@@ -1,0 +1,25 @@
+.title-area {
+	grid-column-start: 1;
+}
+@media screen(menuscreen) {
+	.title-area {
+		grid-column-start: 1;
+	}
+}
+
+.site-title {
+	@apply text-3xl;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.site-title a,
+.site-title a:focus,
+.site-title a:hover {
+	text-decoration: none;
+}
+
+.site-description {
+	@apply text-sm;
+	margin-bottom: 0;
+}

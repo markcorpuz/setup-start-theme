@@ -1,0 +1,18 @@
+.featured-content .entry {
+	@apply
+		pb-tiny
+		mb-medium2x;
+	border-bottom: 1px solid #eee;
+}
+
+.featured-content .entry:last-of-type {
+	@apply
+		mb-0;
+	border-bottom: 0;
+}
+
+.featured-content .entry-title {
+	@apply
+		text-medium
+		mb-tiny;
+}

@@ -1,0 +1,142 @@
+h1 {
+	@apply text-h1;
+}
+h2 {
+	@apply text-h2;
+}
+h3 {
+	@apply text-h3;
+}
+h4 {
+	@apply text-h4;
+}
+h5 {
+	@apply text-h5;
+}
+h6 {
+	@apply text-h6;
+}
+
+.textsize-meta {
+	@apply text-meta font-meta;
+}
+.textsize-reference {
+	@apply text-reference;
+}
+.textsize-intro {
+	@apply text-medium smallscreen:text-medium2x font-intro mb-intro text-mid2x;
+}
+
+.textsize-tiny,
+body .has-tiny-font-size {
+	@apply text-tiny;
+}
+.textsize-smaller,
+body .has-smaller-font-size {
+	@apply text-smaller;
+}
+.textsize-small,
+body .has-small-font-size {
+	@apply text-small
+}
+.textsize-base,
+body .has-base-font-size {
+	@apply text-base;
+}
+.textsize-main,
+body .has-main-font-size {
+	@apply text-main;
+}
+.textsize-medium,
+body .has-medium-font-size {
+	@apply text-medium;
+}
+.textsize-medium2x,
+body .has-medium-2-x-font-size {
+	@apply text-medium largescreen:text-medium2x;
+}
+.textsize-medium3x,
+body .has-medium-3-x-font-size {
+	@apply text-medium smallscreen:text-medium2x largescreen:text-medium3x;
+}
+.textsize-large,
+body .has-large-font-size {
+	@apply text-medium2x smallscreen:text-medium3x largescreen:text-large;
+}
+.textsize-larger,
+body .has-larger-font-size {
+	@apply text-medium2x smallscreen:text-large largescreen:text-larger;
+}
+.textsize-largest,
+body .has-largest-font-size {
+	@apply text-large smallscreen:text-larger largescreen:text-largest;
+}
+.textsize-huge,
+body .has-huge-font-size {
+	@apply text-larger smallscreen:text-largest largescreen:text-huge;
+}
+.textsize-huge2x,
+body .has-huge-2-x-font-size {
+	@apply text-largest smallscreen:text-huge largescreen:text-huge2x;
+}
+.textsize-gigantic,
+body .has-gigantic-font-size {
+	@apply text-huge smallscreen:text-huge2x largescreen:text-gigantic;
+}
+
+.textweight-light {
+	font-weight: 300;
+}
+.textweight-normal {
+	font-weight: 400;
+}
+.textweight-medium {
+	font-weight: 500;
+}
+.textweight-semibold {
+	font-weight: 600;
+}
+.textweight-bold {
+	font-weight: 700;
+}
+.textweight-extrabold {
+	font-weight: 800;
+}
+.textweight-black {
+	font-weight: 900;
+}
+
+.textstyle-round {
+	@apply font-round;
+}
+.textstyle-hard {
+	@apply font-hard;
+}
+.textstyle-serif {
+	@apply font-serif;
+}
+
+.textcolor-black {
+	@apply text-black;
+}
+.textcolor-darker {
+	@apply text-darker;
+}
+.textcolor-dark {
+	@apply text-dark;
+}
+.textcolor-mid {
+	@apply text-mid;
+}
+.textcolor-light {
+	@apply text-light;
+}
+.textcolor-lighter {
+	@apply text-lighter;
+}
+.textcolor-lightest {
+	@apply text-lightest;
+}
+.textcolor-white {
+	@apply text-white;
+}

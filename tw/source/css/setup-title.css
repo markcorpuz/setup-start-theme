@@ -1,0 +1,75 @@
+.entry-title {
+	@apply 
+		text-medium2x largescreen:text-medium3x
+		text-heading
+		font-heading;
+}
+
+.entry-title a {
+	@apply 
+		text-heading-link
+		no-underline
+		hover:text-heading-hover
+		focus:text-heading-hover
+		active:text-heading-hover;
+}
+
+.single .entry-title {
+	@apply 
+		text-medium3x smallscreen:text-large largescreen:text-larger 
+		font-heading 
+		mb-medium;
+}
+
+.archive-title {
+	@apply 
+		text-large smallscreen:text-larger largescreen:text-largest 
+		font-heading 
+		mb-0;
+}
+
+.author-box-title {
+	@apply 
+		text-medium largescreen:text-medium2x 
+		font-heading;
+}
+
+.widget-title {
+	@apply 
+		text-small font-heading mb-medium;
+}
+
+.sidebar .widget-title a {
+	@apply 
+		text-link
+		no-underline;
+}
+
+.comment-reply-title {
+	@apply 
+		text-medium largescreen:text-medium2x 
+		font-heading 
+		mb-0;
+}
+
+
+
+
+
+.entry-title a,
+.sidebar .widget-title a {
+	@apply 
+		text-link
+		no-underline;
+}
+
+.entry-title a:focus,
+.entry-title a:hover {
+	@apply 
+		text-hover;
+}
+
+.genesis-title-hidden .site-inner {
+	@apply
+		pt-0;
+}

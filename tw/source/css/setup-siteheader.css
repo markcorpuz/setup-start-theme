@@ -1,0 +1,23 @@
+.site-header {
+	@apply
+		bg-lightest4x;
+	position: relative;
+	padding: 1rem 2rem;
+}
+@media screen(menuscreen) {
+	.site-header {}
+	.admin-bar .site-header {}
+}
+
+.site-header > .wrap {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+@media screen(menuscreen) {
+	.site-header > .wrap {
+		grid-template-columns: 2fr 3fr;
+		grid-column-gap: 2rem;
+		align-items: center;
+	}
+}

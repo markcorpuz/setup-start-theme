@@ -1,0 +1,246 @@
+.author-box::before,
+.clearfix::before,
+.entry::before,
+.entry-content::before,
+.footer-widgets::before,
+.nav-primary::before,
+.nav-secondary::before,
+.pagination::before,
+.site-container::before,
+.site-footer::before,
+.site-header::before,
+.site-inner::before,
+.widget::before,
+.wrap::before {
+	content: " ";
+	display: table;
+}
+
+.author-box::after,
+.clearfix::after,
+.entry::after,
+.entry-content::after,
+.footer-widgets::after,
+.nav-primary::after,
+.nav-secondary::after,
+.pagination::after,
+.site-container::after,
+.site-footer::after,
+.site-header::after,
+.site-inner::after,
+.widget::after,
+.wrap::after {
+	clear: both;
+	content: " ";
+	display: table;
+}
+
+html {
+	@apply antialiased;
+}
+
+body {
+	@apply 
+		text-main
+		font-main
+		bg-white
+		m-0;
+	overflow-x: hidden;
+}
+
+a {
+	@apply 
+		text-link
+		underline
+		cursor-pointer
+		hover:text-hover hover:no-underline
+		focus:text-hover focus:no-underline
+		active:text-hover active:no-underline
+		transition-all;
+}
+
+b,
+strong {
+	@apply 
+		font-strong;
+}
+
+p {
+	@apply 
+		mb-main;
+}
+
+ol,
+ul {
+	@apply 
+		mb-list;
+}
+
+li {
+	@apply 
+		list-none;
+}
+
+hr {
+	@apply 
+		text-line
+		border-0 border-collapse border-b border-current 
+		clear-both 
+		my-5 mx-auto;
+}
+
+blockquote,
+cite,
+em,
+i {
+	@apply 
+		italic;
+}
+
+mark {
+	@apply 
+		bg-gray-50 
+		text-gray-900;
+}
+
+blockquote {
+	@apply 
+		m-8;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	@apply 
+		text-heading
+		font-heading;
+}
+
+h1 {
+	@apply
+		text-h1;
+}
+
+h2 {
+	@apply
+		text-h2;
+}
+
+h3 {
+	@apply
+		text-h3;
+}
+
+h4 {
+	@apply
+		text-h4;
+}
+
+h5 {
+	@apply
+		text-h5;
+}
+
+h6 {
+	@apply
+		text-h6;
+}
+
+embed,
+iframe,
+img,
+object,
+video,
+.wp-caption {
+	@apply
+		max-w-full;
+}
+
+img {
+	@apply
+		h-auto align-top;
+}
+
+figure {
+	@apply 
+		m-0;
+}
+
+table {
+	@apply 
+		border-collapse 
+		mb-1 
+		w-full;
+	border-spacing: 0;
+	word-break: break-all;
+}
+
+tbody {
+	@apply 
+		border-b border-gray-200;
+}
+
+td,
+th {
+	@apply 
+		leading-loose 
+		text-left 
+		align-top;
+}
+
+td {
+	@apply 
+		p-2;
+}
+
+tr {
+	@apply 
+		border-t border-gray-200;
+}
+
+th {
+	@apply 
+		font-semibold 
+		p-2;
+}
+
+.screen-reader-shortcut,
+.screen-reader-text,
+.screen-reader-text span {
+	@apply 
+		border-0 
+		h-px 
+		overflow-hidden 
+		w-px;
+	clip: rect(0, 0, 0, 0);
+	position: absolute !important;
+	word-wrap: normal !important;
+}
+
+.screen-reader-text:focus,
+.screen-reader-shortcut:focus,
+.widget_search input[type="submit"]:focus {
+	@apply 
+		bg-white 
+		shadow-sm 
+		text-gray-900 
+		block 
+		text-base 
+		font-semibold 
+		h-auto 
+		py-4 px-1.5 
+		no-underline 
+		w-auto;
+	clip: auto !important;
+	z-index: 100000; /* Above WP toolbar. */
+}
+
+.more-link {
+	@apply 
+		inline-block 
+		relative 
+		mb-8;
+}

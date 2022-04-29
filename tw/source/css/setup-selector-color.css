@@ -1,0 +1,51 @@
+.background-main {
+	@apply bg-main;
+}
+
+.background-black {
+	@apply bg-black;
+}
+
+.background-darkest {
+	@apply bg-darkest;
+}
+
+.background-darker {
+	@apply bg-darker;
+}
+
+.background-dark {
+	@apply bg-dark;
+}
+
+.background-mid {
+	@apply bg-mid;
+}
+
+.background-light {
+	@apply bg-light;
+}
+
+.background-lighter {
+	@apply bg-lighter;
+}
+
+.background-lightest {
+	@apply bg-lightest;
+}
+
+.background-lightest2x {
+	@apply bg-lightest2x;
+}
+
+.background-lightest3x {
+	@apply bg-lightest3x;
+}
+
+.background-lightest4x {
+	@apply bg-lightest4x;
+}
+
+.background-white {
+	@apply bg-white;
+}

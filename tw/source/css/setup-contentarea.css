@@ -1,0 +1,6 @@
+.content-area {
+	@apply
+		max-w-mediumwidth 
+		mr-auto 
+		ml-auto;
+}

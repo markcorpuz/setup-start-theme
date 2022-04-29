@@ -1,0 +1,12 @@
+.copyright .item.info {
+	@apply text-base;
+}
+
+.credit .item.info {
+	@apply text-sm;
+}
+
+.credit .item.logo {
+	width: 150px;
+	margin: 0.5rem auto 1rem;
+}

@@ -1,0 +1,58 @@
+.pagination {
+	clear: both;
+	margin: 2rem 0 0;
+}
+.pagination > ul {
+	margin-bottom: 0;
+}
+
+.adjacent-entry-pagination {
+	margin-bottom: 0;
+}
+
+.archive-pagination li {
+	display: inline;
+}
+
+.archive-pagination li a {
+	@apply
+		text-small
+		text-main-link
+		bg-lightest3x
+		hover:text-lightest3x
+		hover:bg-main-link
+		focus:text-lightest3x
+		focus:bg-main-link
+		active:text-lightest3x
+		active:bg-main-link;
+	padding: 0.25rem 0.5rem;
+	border-radius: 0.25rem;
+	cursor: pointer;
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.archive-pagination .active > a {
+	@apply
+		font-strong
+		bg-transparent
+		hover:text-main-link
+		hover:bg-transparent
+		focus:text-main-link
+		focus:bg-transparent
+		active:text-main-link
+		active:bg-transparent;
+}
+
+.pagination-previous {
+	@apply
+		font-strong;
+}
+
+.pagination-omission {}
+
+.pagination-next {
+	@apply
+		font-strong;
+}

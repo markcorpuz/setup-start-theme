@@ -1,0 +1,43 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* ------ Add your CSS below this line (or @import your other CSS files). ------- */
+
+@import "version";
+@import "setup-base";
+@import "setup-skip";
+@import "setup-form";
+@import "setup-gutenberg";
+@import "setup-sitecontainer";
+@import "setup-siteinner";
+@import "setup-sitefooter";
+@import "setup-contentarea";
+@import "setup-widget";
+@import "setup-search";
+@import "setup-content";
+@import "setup-featured";
+@import "setup-siteheader";
+@import "setup-custom-logo";
+@import "setup-titlearea";
+@import "setup-nav-primary";
+@import "setup-nav-secondary";
+@import "setup-footerwidgets";
+@import "setup-entry";
+@import "setup-item";
+@import "setup-pagination";
+@import "setup-avatar";
+@import "setup-authorbox";
+@import "setup-comment";
+@import "setup-layout";
+@import "setup-credit";
+@import "setup-icon";
+@import "setup-print";
+@import "setup-selector";
+@import "setup-selector-color";
+@import "setup-selector-section";
+@import "setup-selector-outline";
+@import "setup-selector-lead";
+@import "setup-selector-space";
+@import "setup-selector-margin";
+@import "setup-selector-padding";

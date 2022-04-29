@@ -1,0 +1,132 @@
+.entry {}
+
+.single .entry,
+.page .entry {
+	@apply mb-largest;
+}
+
+.comment-form {}
+
+.entry-meta {
+	@apply 
+		text-meta 
+		font-meta 
+		m-0;
+}
+
+.single .entry-header {
+	@apply 
+		mb-medium;
+}
+.page .entry-header {
+	@apply 
+		mb-large;
+}
+
+.entry-header .entry-meta {}
+
+.entry-footer .entry-meta {
+	border-top: 1px solid #eee;
+	padding-top: 20px;
+}
+
+.entry-categories,
+.entry-tags {
+	display: block;
+}
+
+.entry-comments-link::before {
+	content: "\2014";
+	margin: 0 6px 0 2px;
+}
+
+.entry-content ol,
+.entry-content ul {
+	@apply 
+		mb-main
+		pl-main;
+}
+
+.entry-content ol.nospace,
+.entry-content ul.nospace {
+	@apply 
+		mb-0;
+}
+
+.entry-content ol > li {
+	list-style-type: decimal;
+}
+
+.entry-content ul > li {
+	list-style-type: disc;
+}
+
+.entry-content ol ul > li,
+.entry-content ul ul > li {
+	list-style-type: circle;
+}
+
+.entry-content ol.noliststyle,
+.entry-content ul.noliststyle {
+	@apply 
+		pl-0;
+}
+
+.entry-content ol.noliststyle > li,
+.entry-content ul.noliststyle > li {
+	list-style: none;
+}
+
+.entry-content ol.noliststyle ul > li,
+.entry-content ul.noliststyle ul > li,
+.entry-content ol.noliststyle ol > li,
+.entry-content ul.noliststyle ol > li {
+	list-style: none;
+}
+
+.entry-content ol ol,
+.entry-content ul ul {
+	@apply 
+		mb-0;
+}
+
+.entry-content code {}
+
+.content .sticky {}
+
+.after-entry,
+.archive-description,
+.author-box,
+.comment-respond,
+.entry,
+.entry-comments,
+.entry-pings {}
+
+.entry {}
+
+.entry-title {}
+
+.single .entry-title {}
+
+.page .entry-title {}
+
+.breadcrumb {
+	@apply
+		text-small
+		mb-large
+		pb-tiny;
+	border-bottom: 1px solid #eee;
+}
+
+.after-entry {
+	@apply 
+		mb-large
+		p-large;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+.after-entry .widget:last-of-type {
+	margin-bottom: 0;
+}
+
+.after-entry .enews {}
