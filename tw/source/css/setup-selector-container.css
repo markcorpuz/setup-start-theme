@@ -1,0 +1,51 @@
+.container-px {
+	@apply p-px;
+}
+.container-2px {
+	@apply p-2px;
+}
+.container-5px {
+	@apply p-5px;
+}
+.container-tiny {
+	@apply p-tiny;
+}
+.container-smaller {
+	@apply p-smaller;
+}
+.container-small {
+	@apply p-small;
+}
+.container-base {
+	@apply p-base;
+}
+.container {
+	@apply p-main;
+}
+.container-medium {
+	@apply p-main smallscreen:p-medium;
+}
+.container-medium2x {
+	@apply p-medium smallscreen:p-medium2x;
+}
+.container-medium3x {
+	@apply p-medium smallscreen:p-medium2x largescreen:p-medium3x;
+}
+.container-large {
+	@apply p-medium2x smallscreen:p-medium3x largescreen:p-large;
+}
+.container-larger {
+	@apply p-medium3x smallscreen:p-large largescreen:p-larger;
+}
+.container-largest {
+	@apply p-large smallscreen:p-larger largescreen:p-largest;
+}
+.container-huge {
+	@apply p-larger smallscreen:p-largest largescreen:p-huge;
+}
+.container-huge2x {
+	@apply p-largest smallscreen:p-huge largescreen:p-huge2x;
+}
+.container-gigantic {
+	@apply p-huge smallscreen:p-huge2x largescreen:p-gigantic;
+}

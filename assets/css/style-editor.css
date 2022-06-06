@@ -841,6 +841,64 @@ Group Block
 	max-width: 64rem;
 }
 
+.grid-2columns, .grid-3columns, .grid-4columns, .grid-5columns, .grid-6columns, .grid-7columns, .grid-8columns, .grid-9columns, .wp-block-group.group-grid-2columns > .wp-block-group__inner-container, .wp-block-group.group-grid-3columns > .wp-block-group__inner-container, .wp-block-group.group-grid-4columns > .wp-block-group__inner-container, .wp-block-group.group-grid-5columns > .wp-block-group__inner-container, .wp-block-group.group-grid-6columns > .wp-block-group__inner-container, .wp-block-group.group-grid-7columns > .wp-block-group__inner-container, .wp-block-group.group-grid-8columns > .wp-block-group__inner-container, .wp-block-group.group-grid-9columns > .wp-block-group__inner-container {
+	display: grid;
+}
+
+.grid-gap, .wp-block-group.group-grid-gap > .wp-block-group__inner-container {
+	gap: 1.125rem;
+}
+
+.grid-row-gap, .wp-block-group.group-grid-row-gap > .wp-block-group__inner-container {
+	row-gap: 1.125rem;
+}
+
+.grid-column-gap, .wp-block-group.group-grid-column-gap > .wp-block-group__inner-container {
+	-webkit-column-gap: 1.125rem;
+	-moz-column-gap: 1.125rem;
+	column-gap: 1.125rem;
+}
+
+.grid-2columns,
+.wp-block-group.group-grid-2columns > .wp-block-group__inner-container {
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3columns,
+.wp-block-group.group-grid-3columns > .wp-block-group__inner-container {
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-4columns,
+.wp-block-group.group-grid-4columns > .wp-block-group__inner-container {
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-5columns,
+.wp-block-group.group-grid-5columns > .wp-block-group__inner-container {
+	grid-template-columns: repeat(5, 1fr);
+}
+
+.grid-6columns,
+.wp-block-group.group-grid-6columns > .wp-block-group__inner-container {
+	grid-template-columns: repeat(6, 1fr);
+}
+
+.grid-7columns,
+.wp-block-group.group-grid-7columns > .wp-block-group__inner-container {
+	grid-template-columns: repeat(7, 1fr);
+}
+
+.grid-8columns,
+.wp-block-group.group-grid-8columns > .wp-block-group__inner-container {
+	grid-template-columns: repeat(8, 1fr);
+}
+
+.grid-9columns,
+.wp-block-group.group-grid-9columns > .wp-block-group__inner-container {
+	grid-template-columns: repeat(9, 1fr);
+}
+
 .hover\:text-teal-800:hover {
 	--tw-text-opacity: 1;
 	color: rgb(17 94 89 / var(--tw-text-opacity));

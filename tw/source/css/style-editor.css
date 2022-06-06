@@ -551,3 +551,73 @@ Group Block
 .wp-block-group.inner-container_large > .wp-block-group__inner-container {
 	@apply max-w-largewidth;
 }
+
+
+.grid-2columns,
+.grid-3columns,
+.grid-4columns,
+.grid-5columns,
+.grid-6columns,
+.grid-7columns,
+.grid-8columns,
+.grid-9columns,
+.wp-block-group.group-grid-2columns > .wp-block-group__inner-container,
+.wp-block-group.group-grid-3columns > .wp-block-group__inner-container,
+.wp-block-group.group-grid-4columns > .wp-block-group__inner-container,
+.wp-block-group.group-grid-5columns > .wp-block-group__inner-container,
+.wp-block-group.group-grid-6columns > .wp-block-group__inner-container,
+.wp-block-group.group-grid-7columns > .wp-block-group__inner-container,
+.wp-block-group.group-grid-8columns > .wp-block-group__inner-container,
+.wp-block-group.group-grid-9columns > .wp-block-group__inner-container {
+	@apply
+		grid;
+}
+
+.grid-gap,
+.wp-block-group.group-grid-gap > .wp-block-group__inner-container {
+	@apply
+		gap-main;
+}
+.grid-row-gap,
+.wp-block-group.group-grid-row-gap > .wp-block-group__inner-container {
+	@apply
+		gap-y-main;
+}
+.grid-column-gap,
+.wp-block-group.group-grid-column-gap > .wp-block-group__inner-container {
+	@apply
+		gap-x-main;
+}
+
+.grid-2columns,
+.wp-block-group.group-grid-2columns > .wp-block-group__inner-container {
+	grid-template-columns: repeat(2, 1fr);
+}
+.grid-3columns,
+.wp-block-group.group-grid-3columns > .wp-block-group__inner-container {
+	grid-template-columns: repeat(3, 1fr);
+}
+.grid-4columns,
+.wp-block-group.group-grid-4columns > .wp-block-group__inner-container {
+	grid-template-columns: repeat(4, 1fr);
+}
+.grid-5columns,
+.wp-block-group.group-grid-5columns > .wp-block-group__inner-container {
+	grid-template-columns: repeat(5, 1fr);
+}
+.grid-6columns,
+.wp-block-group.group-grid-6columns > .wp-block-group__inner-container {
+	grid-template-columns: repeat(6, 1fr);
+}
+.grid-7columns,
+.wp-block-group.group-grid-7columns > .wp-block-group__inner-container {
+	grid-template-columns: repeat(7, 1fr);
+}
+.grid-8columns,
+.wp-block-group.group-grid-8columns > .wp-block-group__inner-container {
+	grid-template-columns: repeat(8, 1fr);
+}
+.grid-9columns,
+.wp-block-group.group-grid-9columns > .wp-block-group__inner-container {
+	grid-template-columns: repeat(9, 1fr);
+}

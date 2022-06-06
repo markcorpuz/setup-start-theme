@@ -50,6 +50,144 @@
 	@apply p-gigantic;
 }
 
+.padx-px {
+	@apply pr-px;
+	@apply pl-px;
+}
+.padx-2px {
+	@apply pr-2px;
+	@apply pl-2px;
+}
+.padx-5px {
+	@apply pr-5px;
+	@apply pl-5px;
+}
+.padx-tiny {
+	@apply pr-tiny;
+	@apply pl-tiny;
+}
+.padx-smaller {
+	@apply pr-smaller;
+	@apply pl-smaller;
+}
+.padx-small {
+	@apply pr-small;
+	@apply pl-small;
+}
+.padx-base {
+	@apply pr-base;
+	@apply pl-base;
+}
+.padx {
+	@apply pr-main;
+	@apply pl-main;
+}
+.padx-medium {
+	@apply pr-medium;
+	@apply pl-medium;
+}
+.padx-medium2x {
+	@apply pr-medium2x;
+	@apply pl-medium2x;
+}
+.padx-medium3x {
+	@apply pr-medium3x;
+	@apply pl-medium3x;
+}
+.padx-large {
+	@apply pr-large;
+	@apply pl-large;
+}
+.padx-larger {
+	@apply pr-larger;
+	@apply pl-larger;
+}
+.padx-largest {
+	@apply pr-largest;
+	@apply pl-largest;
+}
+.padx-huge {
+	@apply pr-huge;
+	@apply pl-huge;
+}
+.padx-huge2x {
+	@apply pr-huge2x;
+	@apply pl-huge2x;
+}
+.padx-gigantic {
+	@apply pr-gigantic;
+	@apply pl-gigantic;
+}
+
+.pady-px {
+	@apply pt-px;
+	@apply pb-px;
+}
+.pady-2px {
+	@apply pt-2px;
+	@apply pb-2px;
+}
+.pady-5px {
+	@apply pt-5px;
+	@apply pb-5px;
+}
+.pady-tiny {
+	@apply pt-tiny;
+	@apply pb-tiny;
+}
+.pady-smaller {
+	@apply pt-smaller;
+	@apply pb-smaller;
+}
+.pady-small {
+	@apply pt-small;
+	@apply pb-small;
+}
+.pady-base {
+	@apply pt-base;
+	@apply pb-base;
+}
+.pady {
+	@apply pt-main;
+	@apply pb-main;
+}
+.pady-medium {
+	@apply pt-medium;
+	@apply pb-medium;
+}
+.pady-medium2x {
+	@apply pt-medium2x;
+	@apply pb-medium2x;
+}
+.pady-medium3x {
+	@apply pt-medium3x;
+	@apply pb-medium3x;
+}
+.pady-large {
+	@apply pt-large;
+	@apply pb-large;
+}
+.pady-larger {
+	@apply pt-larger;
+	@apply pb-larger;
+}
+.pady-largest {
+	@apply pt-largest;
+	@apply pb-largest;
+}
+.pady-huge {
+	@apply pt-huge;
+	@apply pb-huge;
+}
+.pady-huge2x {
+	@apply pt-huge2x;
+	@apply pb-huge2x;
+}
+.pady-gigantic {
+	@apply pt-gigantic;
+	@apply pb-gigantic;
+}
+
 .padt-px {
 	@apply pt-px;
 }
