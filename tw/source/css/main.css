@@ -5,6 +5,7 @@
 /* ------ Add your CSS below this line (or @import your other CSS files). ------- */
 
 @import "version";
+@import "variables";
 @import "setup-base";
 @import "setup-skip";
 @import "setup-form";

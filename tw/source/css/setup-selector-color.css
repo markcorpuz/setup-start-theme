@@ -1,73 +1,154 @@
-.textcolor-black {
-	@apply text-black;
+.text-black {
+	color: var(--black);
 }
-.textcolor-darker {
-	@apply text-darker;
+.text-darkest {
+	color: var(--darkest);
 }
-.textcolor-dark {
-	@apply text-dark;
+.text-darker {
+	color: var(--darker);
 }
-.textcolor-mid {
-	@apply text-mid;
+.text-dark {
+	color: var(--dark);
 }
-.textcolor-light {
-	@apply text-light;
+.text-mid {
+	color: var(--mid);
 }
-.textcolor-lighter {
-	@apply text-lighter;
+.text-light {
+	color: var(--light);
 }
-.textcolor-lightest {
-	@apply text-lightest;
+.text-lighter {
+	color: var(--lighter);
 }
-.textcolor-lightest2x {
-	@apply text-lightest2x;
+.text-lightest {
+	color: var(--lightest);
 }
-.textcolor-lightest3x {
-	@apply text-lightest3x;
+.text-lightest2x {
+	color: var(--lightest2x);
 }
-.textcolor-lightest4x {
-	@apply text-lightest4x;
+.text-lightest3x {
+	color: var(--lightest3x);
 }
-.textcolor-white {
-	@apply text-white;
+.text-lightest4x {
+	color: var(--lightest4x);
+}
+.text-white {
+	color: var(--white);
 }
 
-.background-main {
-	@apply bg-main;
+	.textcolor-black {
+		@apply text-black;
+	}
+	.textcolor-darkest {
+		@apply text-darkest;
+	}
+	.textcolor-darker {
+		@apply text-darker;
+	}
+	.textcolor-dark {
+		@apply text-dark;
+	}
+	.textcolor-mid {
+		@apply text-mid;
+	}
+	.textcolor-light {
+		@apply text-light;
+	}
+	.textcolor-lighter {
+		@apply text-lighter;
+	}
+	.textcolor-lightest {
+		@apply text-lightest;
+	}
+	.textcolor-lightest2x {
+		@apply text-lightest2x;
+	}
+	.textcolor-lightest3x {
+		@apply text-lightest3x;
+	}
+	.textcolor-lightest4x {
+		@apply text-lightest4x;
+	}
+	.textcolor-white {
+		@apply text-white;
+	}
+
+.bg-main {
+	background-color: var(--main);
 }
-.background-black {
-	@apply bg-black;
+
+.bg-black {
+	background-color: var(--black);
 }
-.background-darkest {
-	@apply bg-darkest;
+.bg-darkest {
+	background-color: var(--darkest);
 }
-.background-darker {
-	@apply bg-darker;
+.bg-darker {
+	background-color: var(--darker);
 }
-.background-dark {
-	@apply bg-dark;
+.bg-dark {
+	background-color: var(--dark);
 }
-.background-mid {
-	@apply bg-mid;
+.bg-mid {
+	background-color: var(--mid);
 }
-.background-light {
-	@apply bg-light;
+.bg-light {
+	background-color: var(--light);
 }
-.background-lighter {
-	@apply bg-lighter;
+.bg-lighter {
+	background-color: var(--lighter);
 }
-.background-lightest {
-	@apply bg-lightest;
+.bg-lightest {
+	background-color: var(--lightest);
 }
-.background-lightest2x {
-	@apply bg-lightest2x;
+.bg-lightest2x {
+	background-color: var(--lightest2x);
 }
-.background-lightest3x {
-	@apply bg-lightest3x;
+.bg-lightest3x {
+	background-color: var(--lightest3x);
 }
-.background-lightest4x {
-	@apply bg-lightest4x;
+.bg-lightest4x {
+	background-color: var(--lightest4x);
 }
-.background-white {
-	@apply bg-white;
+.bg-white {
+	background-color: var(--white);
 }
+
+	.background-main {
+		@apply bg-main;
+	}
+	.background-black {
+		@apply bg-black;
+	}
+	.background-darkest {
+		@apply bg-darkest;
+	}
+	.background-darker {
+		@apply bg-darker;
+	}
+	.background-dark {
+		@apply bg-dark;
+	}
+	.background-mid {
+		@apply bg-mid;
+	}
+	.background-light {
+		@apply bg-light;
+	}
+	.background-lighter {
+		@apply bg-lighter;
+	}
+	.background-lightest {
+		@apply bg-lightest;
+	}
+	.background-lightest2x {
+		@apply bg-lightest2x;
+	}
+	.background-lightest3x {
+		@apply bg-lightest3x;
+	}
+	.background-lightest4x {
+		@apply bg-lightest4x;
+	}
+	.background-white {
+		@apply bg-white;
+	}

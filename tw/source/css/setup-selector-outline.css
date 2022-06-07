@@ -1,3 +1,50 @@
+.outline {
+	outline: var(--line-borderwidth) solid var(--line-color);
+}
+
 .outline-dashed {
-	outline: 1px dashed #ddd;
+	outline: 1px dashed var(--line-color);
+}
+
+.outline-black {
+	outline-color: var(--black-color);
+}
+.outline-darkest {
+	outline-color: var(--darkest-color);
+}
+.outline-darker {
+	outline-color: var(--darker-color);
+}
+.outline-dark {
+	outline-color: var(--dark-color);
+}
+.outline-mid3x {
+	outline-color: var(--mid3x-color);
+}
+.outline-mid2x {
+	outline-color: var(--mid2x-color);
+}
+.outline-mid {
+	outline-color: var(--mid-color);
+}
+.outline-light {
+	outline-color: var(--light-color);
+}
+.outline-lighter {
+	outline-color: var(--lighter-color);
+}
+.outline-lightest {
+	outline-color: var(--lightest-color);
+}
+.outline-lightest2x {
+	outline-color: var(--lightest2x-color);
+}
+.outline-lightest3x {
+	outline-color: var(--lightest3x-color);
+}
+.outline-lightest4x {
+	outline-color: var(--lightest4x-color);
+}
+.outline-white {
+	outline-color: var(--white-color);
 }
