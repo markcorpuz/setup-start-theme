@@ -40,4 +40,15 @@
   --white-color: #ffffff;
 
   --line-borderwidth: 1px;
+
+  --width-tiny: 20rem;
+  --width-tiny-wgap: 23rem;
+  --width-small: 32rem;
+  --width-small-wgap: 35rem;
+  --width-medium: 48rem;
+  --width-medium-wgap: 51rem;
+  --width-large: 64rem;
+  --width-large-wgap: 67rem;
+  --width-xlarge: 80rem;
+  --width-xlarge-wgap: 83rem;
 }

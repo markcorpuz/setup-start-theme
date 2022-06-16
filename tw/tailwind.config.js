@@ -169,35 +169,56 @@ module.exports =
       },
       width: {
         // 320px
-        'tinywidth':        '20rem',
+        'tinywidth':        'var(--width-tiny)',
+        'tinywidthwgap':    'var(--width-tiny-wgap)',
         // 512px
-        'smallwidth':       '32rem',
+        'smallwidth':       'var(--width-small)',
+        'smallwidthwgap':   'var(--width-small-wgap)',
         // 768px
-        'mediumwidth':      '48rem',
+        'mediumwidth':      'var(--width-medium-wgap)',
+        'mediumwidthwgap':  'var(--width-medium-wgap)',
         // 1024px
-        'largewidth':       '64rem',
+        'largewidth':       'var(--width-large)',
+        'largewidthwgap':   'var(--width-large-wgap)',
         // 1280px
-        'xlargewidth':      '80rem',
+        'xlargewidth':      'var(--width-xlarge)',
+        'xlargewidthwgap':  'var(--width-xlarge-wgap)',
       },
       maxWidth: {
         // 320px
-        'tinywidth':        '20rem',
+        'tinywidth':          'var(--width-tiny)',
+        'tinywidth-wgap':     'var(--width-tiny-wgap)',
         // 512px
-        'smallwidth':       '32rem',
+        'smallwidth':         'var(--width-small)',
+        'smallwidth-wgap':    'var(--width-small-wgap)',
         // 768px
-        'mediumwidth':      '48rem',
+        'mediumwidth':        'var(--width-medium)',
+        'mediumwidth-wgap':   'var(--width-medium-wgap)',
         // 1024px
-        'largewidth':       '64rem',
+        'largewidth':         'var(--width-large)',
+        'largewidth-wgap':    'var(--width-large-wgap)',
         // 1280px
-        'xlargewidth':      '80rem',
+        'xlargewidth':        'var(--width-xlarge)',
+        'xlargewidth-wgap':   'var(--width-xlarge-wgap)',
       },
       screens: {
-        'menuscreen':       '768px',
-        'tinyscreen':       '320px',
-        'smallscreen':      '512px',
-        'mediumscreen':     '768px',
-        'largescreen':      '1024px',
-        'xlargescreen':     '1280px',
+        // 320px
+        'tinyscreen':         '320px',
+        'tinyscreen-wgap':    '368px',
+        // 512px
+        'smallscreen':        '512px',
+        'smallscreen-wgap':   '560px',
+        // 768px
+        'mediumscreen':       '768px',
+        'mediumscreen-wgap':  '816px',
+        'menuscreen':         '768px',
+        'menuscreen-wgap':    '816px',
+        // 1024px
+        'largescreen':        '1024px',
+        'largescreen-wgap':   '1072px',
+        // 1280px
+        'xlargescreen':       '1280px',
+        'xlargescreen-wgap':  '1328px',
       },
     }
   },

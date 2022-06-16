@@ -1,38 +1,38 @@
 .text-black {
-	color: var(--black);
+	color: var(--black-color);
 }
 .text-darkest {
-	color: var(--darkest);
+	color: var(--darkest-color);
 }
 .text-darker {
-	color: var(--darker);
+	color: var(--darker-color);
 }
 .text-dark {
-	color: var(--dark);
+	color: var(--dark-color);
 }
 .text-mid {
-	color: var(--mid);
+	color: var(--mid-color);
 }
 .text-light {
-	color: var(--light);
+	color: var(--light-color);
 }
 .text-lighter {
-	color: var(--lighter);
+	color: var(--lighter-color);
 }
 .text-lightest {
-	color: var(--lightest);
+	color: var(--lightest-color);
 }
 .text-lightest2x {
-	color: var(--lightest2x);
+	color: var(--lightest2x-color);
 }
 .text-lightest3x {
-	color: var(--lightest3x);
+	color: var(--lightest3x-color);
 }
 .text-lightest4x {
-	color: var(--lightest4x);
+	color: var(--lightest4x-color);
 }
 .text-white {
-	color: var(--white);
+	color: var(--white-color);
 }
 
 	.textcolor-black {
@@ -73,44 +73,44 @@
 	}
 
 .bg-main {
-	background-color: var(--main);
+	background-color: var(--main-color);
 }
 
 .bg-black {
-	background-color: var(--black);
+	background-color: var(--black-color);
 }
 .bg-darkest {
-	background-color: var(--darkest);
+	background-color: var(--darkest-color);
 }
 .bg-darker {
-	background-color: var(--darker);
+	background-color: var(--darker-color);
 }
 .bg-dark {
-	background-color: var(--dark);
+	background-color: var(--dark-color);
 }
 .bg-mid {
-	background-color: var(--mid);
+	background-color: var(--mid-color);
 }
 .bg-light {
-	background-color: var(--light);
+	background-color: var(--light-color);
 }
 .bg-lighter {
-	background-color: var(--lighter);
+	background-color: var(--lighter-color);
 }
 .bg-lightest {
-	background-color: var(--lightest);
+	background-color: var(--lightest-color);
 }
 .bg-lightest2x {
-	background-color: var(--lightest2x);
+	background-color: var(--lightest2x-color);
 }
 .bg-lightest3x {
-	background-color: var(--lightest3x);
+	background-color: var(--lightest3x-color);
 }
 .bg-lightest4x {
-	background-color: var(--lightest4x);
+	background-color: var(--lightest4x-color);
 }
 .bg-white {
-	background-color: var(--white);
+	background-color: var(--white-color);
 }
 
 	.background-main {

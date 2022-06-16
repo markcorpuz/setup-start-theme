@@ -54,16 +54,16 @@
 }
 
 .section-line {
-	@apply border-b-line border-solid border-t-0;
+	@apply border-b-line border-solid border-t-0 border-r-0 border-l-0;
 }
 .section-line2x {
-	@apply border-b-line2x border-solid border-t-0;
+	@apply border-b-line2x border-solid border-t-0 border-r-0 border-l-0;
 }
 .section-line5x {
-	@apply border-b-line5x border-solid border-t-0;
+	@apply border-b-line5x border-solid border-t-0 border-r-0 border-l-0;
 }
 .section-line10x {
-	@apply border-b-line10x border-solid border-t-0;
+	@apply border-b-line10x border-solid border-t-0 border-r-0 border-l-0;
 }
 
 .section-line-top {
