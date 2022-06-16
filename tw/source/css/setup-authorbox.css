@@ -1,7 +1,8 @@
 .author-box {
 	@apply 
 		mb-large
-		p-medium3x;
+		bg-lightest4x
+		p-medium smallscreen:p-medium2x largescreen:p-medium3x;
 }
 
 .author-box p:last-child {

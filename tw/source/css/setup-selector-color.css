@@ -1,51 +1,154 @@
-.background-main {
-	@apply bg-main;
+.text-black {
+	color: var(--black-color);
+}
+.text-darkest {
+	color: var(--darkest-color);
+}
+.text-darker {
+	color: var(--darker-color);
+}
+.text-dark {
+	color: var(--dark-color);
+}
+.text-mid {
+	color: var(--mid-color);
+}
+.text-light {
+	color: var(--light-color);
+}
+.text-lighter {
+	color: var(--lighter-color);
+}
+.text-lightest {
+	color: var(--lightest-color);
+}
+.text-lightest2x {
+	color: var(--lightest2x-color);
+}
+.text-lightest3x {
+	color: var(--lightest3x-color);
+}
+.text-lightest4x {
+	color: var(--lightest4x-color);
+}
+.text-white {
+	color: var(--white-color);
 }
 
-.background-black {
-	@apply bg-black;
+	.textcolor-black {
+		@apply text-black;
+	}
+	.textcolor-darkest {
+		@apply text-darkest;
+	}
+	.textcolor-darker {
+		@apply text-darker;
+	}
+	.textcolor-dark {
+		@apply text-dark;
+	}
+	.textcolor-mid {
+		@apply text-mid;
+	}
+	.textcolor-light {
+		@apply text-light;
+	}
+	.textcolor-lighter {
+		@apply text-lighter;
+	}
+	.textcolor-lightest {
+		@apply text-lightest;
+	}
+	.textcolor-lightest2x {
+		@apply text-lightest2x;
+	}
+	.textcolor-lightest3x {
+		@apply text-lightest3x;
+	}
+	.textcolor-lightest4x {
+		@apply text-lightest4x;
+	}
+	.textcolor-white {
+		@apply text-white;
+	}
+
+.bg-main {
+	background-color: var(--main-color);
 }
 
-.background-darkest {
-	@apply bg-darkest;
+.bg-black {
+	background-color: var(--black-color);
+}
+.bg-darkest {
+	background-color: var(--darkest-color);
+}
+.bg-darker {
+	background-color: var(--darker-color);
+}
+.bg-dark {
+	background-color: var(--dark-color);
+}
+.bg-mid {
+	background-color: var(--mid-color);
+}
+.bg-light {
+	background-color: var(--light-color);
+}
+.bg-lighter {
+	background-color: var(--lighter-color);
+}
+.bg-lightest {
+	background-color: var(--lightest-color);
+}
+.bg-lightest2x {
+	background-color: var(--lightest2x-color);
+}
+.bg-lightest3x {
+	background-color: var(--lightest3x-color);
+}
+.bg-lightest4x {
+	background-color: var(--lightest4x-color);
+}
+.bg-white {
+	background-color: var(--white-color);
 }
 
-.background-darker {
-	@apply bg-darker;
-}
-
-.background-dark {
-	@apply bg-dark;
-}
-
-.background-mid {
-	@apply bg-mid;
-}
-
-.background-light {
-	@apply bg-light;
-}
-
-.background-lighter {
-	@apply bg-lighter;
-}
-
-.background-lightest {
-	@apply bg-lightest;
-}
-
-.background-lightest2x {
-	@apply bg-lightest2x;
-}
-
-.background-lightest3x {
-	@apply bg-lightest3x;
-}
-
-.background-lightest4x {
-	@apply bg-lightest4x;
-}
-
-.background-white {
-	@apply bg-white;
-}
+	.background-main {
+		@apply bg-main;
+	}
+	.background-black {
+		@apply bg-black;
+	}
+	.background-darkest {
+		@apply bg-darkest;
+	}
+	.background-darker {
+		@apply bg-darker;
+	}
+	.background-dark {
+		@apply bg-dark;
+	}
+	.background-mid {
+		@apply bg-mid;
+	}
+	.background-light {
+		@apply bg-light;
+	}
+	.background-lighter {
+		@apply bg-lighter;
+	}
+	.background-lightest {
+		@apply bg-lightest;
+	}
+	.background-lightest2x {
+		@apply bg-lightest2x;
+	}
+	.background-lightest3x {
+		@apply bg-lightest3x;
+	}
+	.background-lightest4x {
+		@apply bg-lightest4x;
+	}
+	.background-white {
+		@apply bg-white;
+	}

@@ -115,28 +115,3 @@ body .has-gigantic-font-size {
 .textstyle-serif {
 	@apply font-serif;
 }
-
-.textcolor-black {
-	@apply text-black;
-}
-.textcolor-darker {
-	@apply text-darker;
-}
-.textcolor-dark {
-	@apply text-dark;
-}
-.textcolor-mid {
-	@apply text-mid;
-}
-.textcolor-light {
-	@apply text-light;
-}
-.textcolor-lighter {
-	@apply text-lighter;
-}
-.textcolor-lightest {
-	@apply text-lightest;
-}
-.textcolor-white {
-	@apply text-white;
-}

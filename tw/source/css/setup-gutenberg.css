@@ -51,6 +51,12 @@ img.alignright,
 		mt-0 mr-0 mb-main ml-main;
 }
 
+body p.has-background {
+	@apply
+		px-tiny
+		py-5px;
+}
+
 figcaption,
 .gallery-caption,
 .wp-caption-text {
@@ -77,29 +83,43 @@ figcaption,
 
 .alignwide {
 	width: 100%;
-}
-@screen mediumscreen {
 	margin-left: auto;
 	margin-right: auto;
+}
+@screen mediumscreen {
+	.alignwide {}
 }
 @screen largescreen {
 	.alignwide,
 	.alignwide.wp-block-cover,
 	.alignwide.wp-block-cover-image,
 	.alignwide.wp-block-image {
+		@apply max-w-largewidth;
 		width: 100vw;
-		max-width: 1024px;
 		margin-left  : -128px;
 		margin-right : -128px;
 	}
 }
+@screen xlargescreen {
+	.wp-block-group.inner-container_xlarge {
+		@apply max-w-xlargewidth;
+		margin-left  : -256px;
+		margin-right : -256px;
+	}
+}
 .content-area .alignwide {}
+
+.wp-block-group.alignfull > .wp-block-group__inner-container > .wp-block-group.alignwide {
+	margin-left: auto;
+	margin-right: auto;
+}
 
 .alignfull {}
 .alignfull,
 .alignfull.wp-block-cover,
 .alignfull.wp-block-cover-image,
-.alignfull.wp-block-image {
+.alignfull.wp-block-image,
+.alignfull.wp-block-separator.is-style-wide {
 	width:  100vw;
 	margin-left  : calc( -100vw / 2 + 100% / 2 );
 	margin-right : calc( -100vw / 2 + 100% / 2 );
@@ -124,6 +144,14 @@ figcaption,
 }
 .wp-block-group.inner-container_large > .wp-block-group__inner-container {
 	@apply max-w-largewidth;
+}
+.wp-block-group.inner-container_xlarge > .wp-block-group__inner-container {
+	@apply max-w-xlargewidth;
+}
+
+.wp-block-image {}
+.wp-block-image.nospace {
+	margin-bottom: 0;
 }
 
 body .wp-block-separator {
@@ -234,4 +262,30 @@ body .wp-block-separator.section-white {
 
 body .wp-block-separator.is-style-wide {
 	max-width: 100%;
+}
+body .alignfull.wp-block-separator.is-style-wide {
+	max-width: 100vw;
+}
+
+body .wp-block-separator.nomargin {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+body .wp-block-separator.margint-zero {
+	margin-top: 0;
+}
+
+body .wp-block-separator.marginb-zero {
+	margin-bottom: 0;
+}
+
+body .blocks-gallery-grid, 
+body .wp-block-gallery,
+body .wp-block-gallery.has-nested-images {
+	display: grid;
+}
+
+body .wp-block-gallery.has-nested-images:not(.is-cropped) figure.wp-block-image:not(#individual-image) img {
+	margin-bottom: 0;
 }

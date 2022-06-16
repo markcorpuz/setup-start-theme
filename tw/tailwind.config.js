@@ -21,45 +21,45 @@ module.exports =
   theme: {
     extend: {
       colors: {
-        'main':             '#555555',
-        'main-link':        '#666666',
-        'main-hover':       '#000000',
-        'main-select':      '#444444',
+        'main':             'var(--main-color)',
+        'main-link':        'var(--main-link-color)',
+        'main-hover':       'var(--main-hover-color)',
+        'main-select':      'var(--main-select-color)',
 
-        'link':             '#666666',
-        'link-alt':         '#666666',
+        'link':             'var(--link-color)',
+        'link-alt':         'var(--link-alt-color)',
 
-        'hover':            '#000000',
-        'hover-alt':        '#444444',
+        'hover':            'var(--hover-color)',
+        'hover-alt':        'var(--hover-alt-color)',
 
-        'heading':          '#555555',
-        'heading-link':     '#777777',
-        'heading-hover':    '#555555',
+        'heading':          'var(--heading-color)',
+        'heading-link':     'var(--heading-link-color)',
+        'heading-hover':    'var(--heading-hover-color)',
 
-        'meta':             '#999999',
-        'meta-link':        '#777777',
-        'meta-hover':       '#555555',
+        'meta':             'var(--meta-color)',
+        'meta-link':        'var(--meta-link-color)',
+        'meta-hover':       'var(--meta-hover-color)',
 
-        'menu':             '#555555',
-        'menu-link':        '#666666',
-        'menu-hover':       '#444444',
+        'menu':             'var(--menu-color)',
+        'menu-link':        'var(--menu-link-color)',
+        'menu-hover':       'var(--menu-hover-color)',
 
-        'line':             '#666666',
+        'line':             'var(--line-color)',
 
-        'black':            '#000000',
-        'darkest':          '#0C0C0C',
-        'darker':           '#191919',
-        'dark':             '#333333',
-        'mid3x':            '#444444',
-        'mid2x':            '#555555',
-        'mid':              '#666666',
-        'light':            '#999999',
-        'lighter':          '#cccccc',
-        'lightest':         '#e5e5e5',
-        'lightest2x':       '#efefef',
-        'lightest3x':       '#f0f0f0',
-        'lightest4x':       '#f9f9f9',
-        'white':            '#ffffff',
+        'black':            'var(--black-color)',
+        'darkest':          'var(--darkest-color)',
+        'darker':           'var(--darker-color)',
+        'dark':             'var(--dark-color)',
+        'mid3x':            'var(--mid3x-color)',
+        'mid2x':            'var(--mid2x-color)',
+        'mid':              'var(--mid-color)',
+        'light':            'var(--light-color)',
+        'lighter':          'var(--lighter-color)',
+        'lightest':         'var(--lightest-color)',
+        'lightest2x':       'var(--lightest2x-color)',
+        'lightest3x':       'var(--lightest3x-color)',
+        'lightest4x':       'var(--lightest4x-color)',
+        'white':            'var(--white-color)',
       },
       fontFamily: {
         'main':             ["'Source Sans Pro'", "'Roboto'", "'Lato'", 'Helvetica', 'Arial', 'sans-serif'],
@@ -103,7 +103,7 @@ module.exports =
         'gigantic':         ['8rem', '1'],
       },
       borderWidth: {
-        'line':             '1px',
+        'line':             'var(--line-borderwidth)',
         'line2x':           '2px',
         'line5x':           '5px',
         'line10x':          '10px',
@@ -169,35 +169,56 @@ module.exports =
       },
       width: {
         // 320px
-        'tinywidth':        '20rem',
+        'tinywidth':        'var(--width-tiny)',
+        'tinywidthwgap':    'var(--width-tiny-wgap)',
         // 512px
-        'smallwidth':       '32rem',
+        'smallwidth':       'var(--width-small)',
+        'smallwidthwgap':   'var(--width-small-wgap)',
         // 768px
-        'mediumwidth':      '48rem',
+        'mediumwidth':      'var(--width-medium-wgap)',
+        'mediumwidthwgap':  'var(--width-medium-wgap)',
         // 1024px
-        'largewidth':       '64rem',
+        'largewidth':       'var(--width-large)',
+        'largewidthwgap':   'var(--width-large-wgap)',
         // 1280px
-        'xlargewidth':      '80rem',
+        'xlargewidth':      'var(--width-xlarge)',
+        'xlargewidthwgap':  'var(--width-xlarge-wgap)',
       },
       maxWidth: {
         // 320px
-        'tinywidth':        '20rem',
+        'tinywidth':          'var(--width-tiny)',
+        'tinywidth-wgap':     'var(--width-tiny-wgap)',
         // 512px
-        'smallwidth':       '32rem',
+        'smallwidth':         'var(--width-small)',
+        'smallwidth-wgap':    'var(--width-small-wgap)',
         // 768px
-        'mediumwidth':      '48rem',
+        'mediumwidth':        'var(--width-medium)',
+        'mediumwidth-wgap':   'var(--width-medium-wgap)',
         // 1024px
-        'largewidth':       '64rem',
+        'largewidth':         'var(--width-large)',
+        'largewidth-wgap':    'var(--width-large-wgap)',
         // 1280px
-        'xlargewidth':      '80rem',
+        'xlargewidth':        'var(--width-xlarge)',
+        'xlargewidth-wgap':   'var(--width-xlarge-wgap)',
       },
       screens: {
-        'menuscreen':       '768px',
-        'tinyscreen':       '320px',
-        'smallscreen':      '512px',
-        'mediumscreen':     '768px',
-        'largescreen':      '1024px',
-        'xlargescreen':     '1280px',
+        // 320px
+        'tinyscreen':         '320px',
+        'tinyscreen-wgap':    '368px',
+        // 512px
+        'smallscreen':        '512px',
+        'smallscreen-wgap':   '560px',
+        // 768px
+        'mediumscreen':       '768px',
+        'mediumscreen-wgap':  '816px',
+        'menuscreen':         '768px',
+        'menuscreen-wgap':    '816px',
+        // 1024px
+        'largescreen':        '1024px',
+        'largescreen-wgap':   '1072px',
+        // 1280px
+        'xlargescreen':       '1280px',
+        'xlargescreen-wgap':  '1328px',
       },
     }
   },
