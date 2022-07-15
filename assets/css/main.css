@@ -1561,7 +1561,7 @@ body .wp-block-gallery.has-nested-images:not(.is-cropped) figure.wp-block-image:
   margin-bottom: 2.25rem;
   font-size: 1.25rem;
   line-height: 1.75rem;
-  font-weight: 500;
+  font-weight: 400;
 }
 @media (min-width: 512px) {
 
@@ -2628,7 +2628,7 @@ h6 {
   margin-bottom: 2rem;
   font-size: 1.25rem;
   line-height: 1.75rem;
-  font-weight: 500;
+  font-weight: 400;
   color: var(--mid2x-color);
 }
 @media (min-width: 512px) {
@@ -2858,6 +2858,25 @@ body .has-gigantic-font-size {
 }
 .textstyle-serif {
   font-family: 'EB Garamond', 'Source Serif Pro', 'PT Serif', 'Sorts Mill Goudy', Georgia, Garamond, serif;
+}
+.lineheight-none, 
+.nolineheight {
+  line-height: 1;
+}
+.lineheight-tight {
+  line-height: 1.25;
+}
+.lineheight-snug {
+  line-height: 1.375;
+}
+.lineheight-normal {
+  line-height: 1.5;
+}
+.lineheight-relaxed {
+  line-height: 1.625;
+}
+.lineheight-loose {
+  line-height: 2;
 }
 .text-black {
 	color: var(--black-color);
@@ -3216,15 +3235,57 @@ body .has-gigantic-font-size {
 .wp-block-group.group-grid-gap > .wp-block-group__inner-container {
   gap: 1.125rem;
 }
+.grid-gap-medium2x, 
+	.wp-block-group.group-grid-gap-medium2x > .wp-block-group__inner-container {
+  gap: 1.5rem;
+}
+.grid-gap-large, 
+	.wp-block-group.group-grid-gap-large > .wp-block-group__inner-container {
+  gap: 2.25rem;
+}
+.grid-gap-larger, 
+	.wp-block-group.group-grid-gap-larger > .wp-block-group__inner-container {
+  gap: 3rem;
+}
 .grid-row-gap, 
 .wp-block-group.group-grid-row-gap > .wp-block-group__inner-container {
   row-gap: 1.125rem;
+}
+.grid-row-gap-medium2x, 
+	.wp-block-group.group-grid-row-gap-medium2x > .wp-block-group__inner-container {
+  row-gap: 1.5rem;
+}
+.grid-row-gap-large, 
+	.wp-block-group.group-grid-row-gap-large > .wp-block-group__inner-container {
+  row-gap: 2.25rem;
+}
+.grid-row-gap-larger, 
+	.wp-block-group.group-grid-row-gap-larger > .wp-block-group__inner-container {
+  row-gap: 3rem;
 }
 .grid-column-gap, 
 .wp-block-group.group-grid-column-gap > .wp-block-group__inner-container {
   -webkit-column-gap: 1.125rem;
   -moz-column-gap: 1.125rem;
   column-gap: 1.125rem;
+}
+.grid-column-gap-medium2x, 
+	.wp-block-group.group-grid-column-gap-medium2x > .wp-block-group__inner-container {
+  -webkit-column-gap: 1.5rem;
+  -moz-column-gap: 1.5rem;
+  column-gap: 1.5rem;
+}
+.grid-column-gap-large, 
+	.wp-block-group.group-grid-column-gap-large > .wp-block-group__inner-container {
+  -webkit-column-gap: 2.25rem;
+  -moz-column-gap: 2.25rem;
+  column-gap: 2.25rem;
+}
+.grid-column-gap-larger, 
+	.wp-block-group.group-grid-column-gap-larger > .wp-block-group__inner-container {
+  -webkit-column-gap: 3rem;
+  -moz-column-gap: 3rem;
+  column-gap: 3rem;
 }
 .grid-2columns,
 .wp-block-group.group-grid-2columns > .wp-block-group__inner-container {
@@ -3261,9 +3322,11 @@ body .has-gigantic-font-size {
 .grid-531,
 .grid-421,
 .grid-321,
+.grid-3221,
 .wp-block-group.group-grid-531 > .wp-block-group__inner-container,
 .wp-block-group.group-grid-421 > .wp-block-group__inner-container,
-.wp-block-group.group-grid-321 > .wp-block-group__inner-container {
+.wp-block-group.group-grid-321 > .wp-block-group__inner-container,
+.wp-block-group.group-grid-3221 > .wp-block-group__inner-container {
 	grid-template-columns: 1fr;
 }
 .grid-532,
@@ -3287,11 +3350,13 @@ body .has-gigantic-font-size {
 	.grid-422,
 	.grid-421,
 	.grid-321,
+	.grid-3221,
 	.grid-322,
 	.wp-block-group.group-grid-532 > .wp-block-group__inner-container,
 	.wp-block-group.group-grid-422 > .wp-block-group__inner-container,
 	.wp-block-group.group-grid-421 > .wp-block-group__inner-container,
 	.wp-block-group.group-grid-321 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-3221 > .wp-block-group__inner-container,
 	.wp-block-group.group-grid-322 > .wp-block-group__inner-container {
 		grid-template-columns: repeat(2, 1fr);
 	}
@@ -3317,6 +3382,10 @@ body .has-gigantic-font-size {
 	.wp-block-group.group-grid-322 > .wp-block-group__inner-container {
 		grid-template-columns: repeat(3, 1fr);
 	}
+	.grid-3221,
+	.wp-block-group.group-grid-321 > .wp-block-group__inner-container {
+		grid-template-columns: repeat(2, 1fr);
+	}
 }
 @media (min-width: 1024px) {
 	.grid-531.grid-6columns,
@@ -3325,12 +3394,6 @@ body .has-gigantic-font-size {
 	.grid-421.grid-6columns,
 	.grid-322.grid-6columns,
 	.grid-321.grid-6columns,
-	.grid-531.group-grid-6columns,
-	.grid-432.group-grid-6columns,
-	.grid-422.group-grid-6columns,
-	.grid-421.group-grid-6columns,
-	.grid-322.group-grid-6columns,
-	.grid-321.group-grid-6columns,
 	.wp-block-group.group-grid-531.group-grid-6columns > .wp-block-group__inner-container,
 	.wp-block-group.group-grid-432.group-grid-6columns > .wp-block-group__inner-container,
 	.wp-block-group.group-grid-422.group-grid-6columns > .wp-block-group__inner-container,
@@ -3346,13 +3409,6 @@ body .has-gigantic-font-size {
 	.grid-421.grid-5columns,
 	.grid-322.grid-5columns,
 	.grid-321.grid-5columns,
-	.grid-531.group-grid-5columns,
-	.grid-532.group-grid-5columns,
-	.grid-431.group-grid-5columns,
-	.grid-422.group-grid-5columns,
-	.grid-421.group-grid-5columns,
-	.grid-322.group-grid-5columns,
-	.grid-321.group-grid-5columns,
 	.wp-block-group.group-grid-531.group-grid-5columns > .wp-block-group__inner-container,
 	.wp-block-group.group-grid-532.group-grid-5columns > .wp-block-group__inner-container,
 	.wp-block-group.group-grid-431.group-grid-5columns > .wp-block-group__inner-container,
@@ -3362,11 +3418,15 @@ body .has-gigantic-font-size {
 	.wp-block-group.group-grid-321.group-grid-5columns > .wp-block-group__inner-container {
 		grid-template-columns: repeat(5, 1fr);
 	}
-	.grid-322.group-grid-4columns,
-	.grid-321.group-grid-4columns,
+	.grid-322.grid-4columns,
+	.grid-321.grid-4columns,
 	.wp-block-group.group-grid-322.group-grid-4columns > .wp-block-group__inner-container,
 	.wp-block-group.group-grid-321.group-grid-4columns > .wp-block-group__inner-container {
 		grid-template-columns: repeat(4, 1fr);
+	}
+	.grid-3221.grid-3columns,
+	.wp-block-group.group-grid-3221.group-grid-3columns > .wp-block-group__inner-container {
+		grid-template-columns: repeat(3, 1fr);
 	}
 }
 .column-half,

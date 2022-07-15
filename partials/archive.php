@@ -17,6 +17,7 @@ if( is_array( $entry_classes ) ) {
 }
 
 echo '<article class="'.trim( $e_class_list ).'">';
+   setup_child_image('medium_large');
    setup_child_title();
    setup_child_dateauthor_nolink();
    setup_child_excerpt();

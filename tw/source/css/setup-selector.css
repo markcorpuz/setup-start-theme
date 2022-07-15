@@ -115,3 +115,23 @@ body .has-gigantic-font-size {
 .textstyle-serif {
 	@apply font-serif;
 }
+
+.lineheight-none,
+.nolineheight {
+	@apply leading-none;
+}
+.lineheight-tight {
+	@apply leading-tight;
+}
+.lineheight-snug {
+	@apply leading-snug;
+}
+.lineheight-normal {
+	@apply leading-normal;
+}
+.lineheight-relaxed {
+	@apply leading-relaxed;
+}
+.lineheight-loose {
+	@apply leading-loose;
+}

@@ -74,7 +74,7 @@ module.exports =
         'main':             '400',
         'strong':           '700',
         'heading':          '600',
-        'intro':            '500',
+        'intro':            '400',
         'meta':             '600',
       },
       fontSize: {

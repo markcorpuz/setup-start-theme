@@ -23,17 +23,61 @@
 	@apply
 		gap-main;
 }
+	.grid-gap-medium2x,
+	.wp-block-group.group-grid-gap-medium2x > .wp-block-group__inner-container {
+		@apply
+			gap-medium2x;
+	}
+	.grid-gap-large,
+	.wp-block-group.group-grid-gap-large > .wp-block-group__inner-container {
+		@apply
+			gap-large;
+	}
+	.grid-gap-larger,
+	.wp-block-group.group-grid-gap-larger > .wp-block-group__inner-container {
+		@apply
+			gap-larger;
+	}
 .grid-row-gap,
 .wp-block-group.group-grid-row-gap > .wp-block-group__inner-container {
 	@apply
 		gap-y-main;
 }
+	.grid-row-gap-medium2x,
+	.wp-block-group.group-grid-row-gap-medium2x > .wp-block-group__inner-container {
+		@apply
+			gap-y-medium2x;
+	}
+	.grid-row-gap-large,
+	.wp-block-group.group-grid-row-gap-large > .wp-block-group__inner-container {
+		@apply
+			gap-y-large;
+	}
+	.grid-row-gap-larger,
+	.wp-block-group.group-grid-row-gap-larger > .wp-block-group__inner-container {
+		@apply
+			gap-y-larger;
+	}
 .grid-column-gap,
 .wp-block-group.group-grid-column-gap > .wp-block-group__inner-container {
 	@apply
 		gap-x-main;
 }
-
+	.grid-column-gap-medium2x,
+	.wp-block-group.group-grid-column-gap-medium2x > .wp-block-group__inner-container {
+		@apply
+			gap-x-medium2x;
+	}
+	.grid-column-gap-large,
+	.wp-block-group.group-grid-column-gap-large > .wp-block-group__inner-container {
+		@apply
+			gap-x-large;
+	}
+	.grid-column-gap-larger,
+	.wp-block-group.group-grid-column-gap-larger > .wp-block-group__inner-container {
+		@apply
+			gap-x-larger;
+	}
 .grid-2columns,
 .wp-block-group.group-grid-2columns > .wp-block-group__inner-container {
 	grid-template-columns: repeat(2, 1fr);
@@ -70,9 +114,11 @@
 .grid-531,
 .grid-421,
 .grid-321,
+.grid-3221,
 .wp-block-group.group-grid-531 > .wp-block-group__inner-container,
 .wp-block-group.group-grid-421 > .wp-block-group__inner-container,
-.wp-block-group.group-grid-321 > .wp-block-group__inner-container {
+.wp-block-group.group-grid-321 > .wp-block-group__inner-container,
+.wp-block-group.group-grid-3221 > .wp-block-group__inner-container {
 	grid-template-columns: 1fr;
 }
 .grid-532,
@@ -97,11 +143,13 @@
 	.grid-422,
 	.grid-421,
 	.grid-321,
+	.grid-3221,
 	.grid-322,
 	.wp-block-group.group-grid-532 > .wp-block-group__inner-container,
 	.wp-block-group.group-grid-422 > .wp-block-group__inner-container,
 	.wp-block-group.group-grid-421 > .wp-block-group__inner-container,
 	.wp-block-group.group-grid-321 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-3221 > .wp-block-group__inner-container,
 	.wp-block-group.group-grid-322 > .wp-block-group__inner-container {
 		grid-template-columns: repeat(2, 1fr);
 	}
@@ -127,6 +175,10 @@
 	.wp-block-group.group-grid-322 > .wp-block-group__inner-container {
 		grid-template-columns: repeat(3, 1fr);
 	}
+	.grid-3221,
+	.wp-block-group.group-grid-321 > .wp-block-group__inner-container {
+		grid-template-columns: repeat(2, 1fr);
+	}
 }
 @media screen(largescreen) {
 	.grid-531.grid-6columns,
@@ -135,12 +187,6 @@
 	.grid-421.grid-6columns,
 	.grid-322.grid-6columns,
 	.grid-321.grid-6columns,
-	.grid-531.group-grid-6columns,
-	.grid-432.group-grid-6columns,
-	.grid-422.group-grid-6columns,
-	.grid-421.group-grid-6columns,
-	.grid-322.group-grid-6columns,
-	.grid-321.group-grid-6columns,
 	.wp-block-group.group-grid-531.group-grid-6columns > .wp-block-group__inner-container,
 	.wp-block-group.group-grid-432.group-grid-6columns > .wp-block-group__inner-container,
 	.wp-block-group.group-grid-422.group-grid-6columns > .wp-block-group__inner-container,
@@ -156,13 +202,6 @@
 	.grid-421.grid-5columns,
 	.grid-322.grid-5columns,
 	.grid-321.grid-5columns,
-	.grid-531.group-grid-5columns,
-	.grid-532.group-grid-5columns,
-	.grid-431.group-grid-5columns,
-	.grid-422.group-grid-5columns,
-	.grid-421.group-grid-5columns,
-	.grid-322.group-grid-5columns,
-	.grid-321.group-grid-5columns,
 	.wp-block-group.group-grid-531.group-grid-5columns > .wp-block-group__inner-container,
 	.wp-block-group.group-grid-532.group-grid-5columns > .wp-block-group__inner-container,
 	.wp-block-group.group-grid-431.group-grid-5columns > .wp-block-group__inner-container,
@@ -172,10 +211,14 @@
 	.wp-block-group.group-grid-321.group-grid-5columns > .wp-block-group__inner-container {
 		grid-template-columns: repeat(5, 1fr);
 	}
-	.grid-322.group-grid-4columns,
-	.grid-321.group-grid-4columns,
+	.grid-322.grid-4columns,
+	.grid-321.grid-4columns,
 	.wp-block-group.group-grid-322.group-grid-4columns > .wp-block-group__inner-container,
 	.wp-block-group.group-grid-321.group-grid-4columns > .wp-block-group__inner-container {
 		grid-template-columns: repeat(4, 1fr);
+	}
+	.grid-3221.grid-3columns,
+	.wp-block-group.group-grid-3221.group-grid-3columns > .wp-block-group__inner-container {
+		grid-template-columns: repeat(3, 1fr);
 	}
 }
