@@ -1278,7 +1278,12 @@ figcaption,
   max-width: var(--width-large);
 }
 .wp-block-group.inner-container_xlarge > .wp-block-group__inner-container {
-  max-width: var(--width-xlarge);
+  max-width: var(--width-large);
+}
+@media (min-width: 1280px) {
+	.wp-block-group.inner-container_xlarge > .wp-block-group__inner-container {
+    max-width: var(--width-xlarge);
+  }	
 }
 .wp-block-image {}
 .wp-block-image.nospace {

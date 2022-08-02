@@ -146,7 +146,12 @@ figcaption,
 	@apply max-w-largewidth;
 }
 .wp-block-group.inner-container_xlarge > .wp-block-group__inner-container {
-	@apply max-w-xlargewidth;
+	@apply max-w-largewidth;
+}
+@screen xlargescreen {
+	.wp-block-group.inner-container_xlarge > .wp-block-group__inner-container {
+		@apply max-w-xlargewidth;
+	}	
 }
 
 .wp-block-image {}

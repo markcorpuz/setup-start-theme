@@ -750,7 +750,13 @@ figcaption,
 }
 
 .wp-block-group.inner-container_xlarge > .wp-block-group__inner-container {
-  max-width: var(--width-xlarge);
+  max-width: var(--width-large);
+}
+
+@media (min-width: 1280px) {
+	.wp-block-group.inner-container_xlarge > .wp-block-group__inner-container {
+    max-width: var(--width-xlarge);
+  }	
 }
 
 .wp-block-image {}
@@ -2222,11 +2228,6 @@ body .has-gigantic-font-size {
 	.wp-block-group.group-grid-3221.group-grid-3columns > .wp-block-group__inner-container {
 		grid-template-columns: repeat(3, 1fr);
 	}
-}
-
-.tooltip {
-	padding-left: 1rem;
-	border-left: 5px solid #e3242b;
 }
 
 .tooltip {
