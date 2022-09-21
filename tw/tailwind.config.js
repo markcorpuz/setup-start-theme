@@ -181,8 +181,8 @@ module.exports =
         'largewidth':       'var(--width-large)',
         'largewidthwgap':   'var(--width-large-wgap)',
         // 1280px
-        'xlargewidth':      'var(--width-xlarge)',
-        'xlargewidthwgap':  'var(--width-xlarge-wgap)',
+        'largerwidth':      'var(--width-larger)',
+        'largerwidthwgap':  'var(--width-larger-wgap)',
       },
       maxWidth: {
         // 320px
@@ -198,8 +198,8 @@ module.exports =
         'largewidth':         'var(--width-large)',
         'largewidth-wgap':    'var(--width-large-wgap)',
         // 1280px
-        'xlargewidth':        'var(--width-xlarge)',
-        'xlargewidth-wgap':   'var(--width-xlarge-wgap)',
+        'largerwidth':        'var(--width-larger)',
+        'largerwidth-wgap':   'var(--width-larger-wgap)',
       },
       screens: {
         // 320px
@@ -217,8 +217,8 @@ module.exports =
         'largescreen':        '1024px',
         'largescreen-wgap':   '1072px',
         // 1280px
-        'xlargescreen':       '1280px',
-        'xlargescreen-wgap':  '1328px',
+        'largerscreen':       '1280px',
+        'largerscreen-wgap':  '1328px',
       },
     }
   },

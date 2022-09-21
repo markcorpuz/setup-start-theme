@@ -296,8 +296,8 @@
   --width-medium-wgap: 51rem;
   --width-large: 64rem;
   --width-large-wgap: 67rem;
-  --width-xlarge: 80rem;
-  --width-xlarge-wgap: 83rem;
+  --width-larger: 80rem;
+  --width-larger-wgap: 83rem;
 }
 
 .wp-block {
@@ -697,8 +697,8 @@ figcaption,
 }
 
 @media (min-width: 1280px) {
-	.wp-block-group.inner-container_xlarge {
-    max-width: var(--width-xlarge);
+	.wp-block-group.inner-container_larger {
+    max-width: var(--width-larger);
 		margin-left  : -256px;
 		margin-right : -256px;
   }
@@ -732,7 +732,7 @@ figcaption,
 .wp-block-group.inner-container_small > .wp-block-group__inner-container,
 .wp-block-group.inner-container_medium > .wp-block-group__inner-container,
 .wp-block-group.inner-container_large > .wp-block-group__inner-container, 
-.wp-block-group.inner-container_xlarge > .wp-block-group__inner-container {
+.wp-block-group.inner-container_larger > .wp-block-group__inner-container {
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -749,14 +749,44 @@ figcaption,
   max-width: var(--width-large);
 }
 
-.wp-block-group.inner-container_xlarge > .wp-block-group__inner-container {
+.wp-block-group.inner-container_larger > .wp-block-group__inner-container {
   max-width: var(--width-large);
 }
 
 @media (min-width: 1280px) {
-	.wp-block-group.inner-container_xlarge > .wp-block-group__inner-container {
-    max-width: var(--width-xlarge);
+	.wp-block-group.inner-container_larger > .wp-block-group__inner-container {
+    max-width: var(--width-larger);
   }	
+}
+
+.wp-block-cover.inner-container_small > .wp-block-cover__inner-container,
+.wp-block-cover.inner-container_medium > .wp-block-cover__inner-container,
+.wp-block-cover.inner-container_large > .wp-block-cover__inner-container, 
+.wp-block-cover.inner-container_larger > .wp-block-cover__inner-container {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.wp-block-cover.inner-container_small > .wp-block-cover__inner-container {
+  max-width: var(--width-small);
+}
+
+.wp-block-cover.inner-container_medium > .wp-block-cover__inner-container {
+  max-width: var(--width-medium);
+}
+
+.wp-block-cover.inner-container_large > .wp-block-cover__inner-container {
+  max-width: var(--width-large);
+}
+
+.wp-block-cover.inner-container_larger > .wp-block-cover__inner-container {
+  max-width: var(--width-large);
+}
+
+@media (min-width: 1280px) {
+	.wp-block-cover.inner-container_larger > .wp-block-cover__inner-container {
+    max-width: var(--width-larger);
+  }
 }
 
 .wp-block-image {}

@@ -100,9 +100,9 @@ figcaption,
 		margin-right : -128px;
 	}
 }
-@screen xlargescreen {
-	.wp-block-group.inner-container_xlarge {
-		@apply max-w-xlargewidth;
+@screen largerscreen {
+	.wp-block-group.inner-container_larger {
+		@apply max-w-largerwidth;
 		margin-left  : -256px;
 		margin-right : -256px;
 	}
@@ -132,7 +132,7 @@ figcaption,
 .wp-block-group.inner-container_small > .wp-block-group__inner-container,
 .wp-block-group.inner-container_medium > .wp-block-group__inner-container,
 .wp-block-group.inner-container_large > .wp-block-group__inner-container, 
-.wp-block-group.inner-container_xlarge > .wp-block-group__inner-container {
+.wp-block-group.inner-container_larger > .wp-block-group__inner-container {
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -145,13 +145,38 @@ figcaption,
 .wp-block-group.inner-container_large > .wp-block-group__inner-container {
 	@apply max-w-largewidth;
 }
-.wp-block-group.inner-container_xlarge > .wp-block-group__inner-container {
+.wp-block-group.inner-container_larger > .wp-block-group__inner-container {
 	@apply max-w-largewidth;
 }
-@screen xlargescreen {
-	.wp-block-group.inner-container_xlarge > .wp-block-group__inner-container {
-		@apply max-w-xlargewidth;
+@screen largerscreen {
+	.wp-block-group.inner-container_larger > .wp-block-group__inner-container {
+		@apply max-w-largerwidth;
 	}	
+}
+
+.wp-block-cover.inner-container_small > .wp-block-cover__inner-container,
+.wp-block-cover.inner-container_medium > .wp-block-cover__inner-container,
+.wp-block-cover.inner-container_large > .wp-block-cover__inner-container, 
+.wp-block-cover.inner-container_larger > .wp-block-cover__inner-container {
+	margin-right: auto;
+	margin-left: auto;
+}
+.wp-block-cover.inner-container_small > .wp-block-cover__inner-container {
+	@apply max-w-smallwidth;
+}
+.wp-block-cover.inner-container_medium > .wp-block-cover__inner-container {
+	@apply max-w-mediumwidth;
+}
+.wp-block-cover.inner-container_large > .wp-block-cover__inner-container {
+	@apply max-w-largewidth;
+}
+.wp-block-cover.inner-container_larger > .wp-block-cover__inner-container {
+	@apply max-w-largewidth;
+}
+@screen largerscreen {
+	.wp-block-cover.inner-container_larger > .wp-block-cover__inner-container {
+		@apply max-w-largerwidth;
+	}
 }
 
 .wp-block-image {}
