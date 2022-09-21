@@ -23,6 +23,11 @@
 	@apply
 		gap-main;
 }
+	.grid-gap-medium,
+	.wp-block-group.group-grid-gap-medium > .wp-block-group__inner-container {
+		@apply
+			gap-medium;
+	}
 	.grid-gap-medium2x,
 	.wp-block-group.group-grid-gap-medium2x > .wp-block-group__inner-container {
 		@apply
@@ -43,6 +48,11 @@
 	@apply
 		gap-y-main;
 }
+	.grid-row-gap-medium,
+	.wp-block-group.group-grid-row-gap-medium > .wp-block-group__inner-container {
+		@apply
+			gap-y-medium;
+	}
 	.grid-row-gap-medium2x,
 	.wp-block-group.group-grid-row-gap-medium2x > .wp-block-group__inner-container {
 		@apply
@@ -63,6 +73,11 @@
 	@apply
 		gap-x-main;
 }
+	.grid-column-gap-medium,
+	.wp-block-group.group-grid-column-gap-medium > .wp-block-group__inner-container {
+		@apply
+			gap-x-medium2x;
+	}
 	.grid-column-gap-medium2x,
 	.wp-block-group.group-grid-column-gap-medium2x > .wp-block-group__inner-container {
 		@apply

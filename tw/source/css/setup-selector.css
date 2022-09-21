@@ -1,3 +1,10 @@
+.display-block {
+	display: block;
+}
+.overflow-hidden {
+	overflow: hidden;
+}
+
 h1 {
 	@apply text-h1;
 }

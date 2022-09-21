@@ -51,4 +51,27 @@
   --width-large-wgap: 67rem;
   --width-larger: 80rem;
   --width-larger-wgap: 83rem;
+
+  --shadow-inner-top: inset 0px 100px 20px -100px rgba(0,0,0,0.15);
+  --shadow-inner-dark-top: inset 0px 100px 40px -100px rgba(0,0,0,0.25);
+  --shadow-inner-darker-top: inset 0px 100px 60px -100px rgba(0,0,0,0.5);
+  --shadow-inner-bottom: inset 0px -100px 20px -100px rgba(0,0,0,0.15);
+  --shadow-inner-dark-bottom: inset 0px -100px 40px -100px rgba(0,0,0,0.25);
+  --shadow-inner-darker-bottom: inset 0px -100px 60px -100px rgba(0,0,0,0.5);
+
+  --shadow-outer-lighter: 2px 2px 4px 0px rgba(0,0,0,0.15);
+  --shadow-outer-light: 3px 3px 8px 0px rgba(0,0,0,0.15);
+  --shadow-outer: 5px 5px 20px 0px rgba(0,0,0,0.25);
+  --shadow-outer-dark: 5px 5px 20px 0px rgba(0,0,0,0.5);
+  --shadow-outer-darker: 5px 5px 20px 0px rgba(0,0,0,0.75);
+
+  --shadow-edge-top: 0 -8px 6px -6px rgba(0,0,0,0.25);
+  --shadow-edge-dark-top: 0 -8px 6px -6px rgba(0,0,0,0.5);
+  --shadow-edge-darker-top: 0 -8px 6px -6px rgba(0,0,0,0.75);
+
+  --shadow-edge-bottom: 0 8px 6px -6px rgba(0,0,0,0.25);
+  --shadow-edge-dark-bottom: 0 8px 6px -6px rgba(0,0,0,0.5);
+  --shadow-edge-darker-bottom: 0 8px 6px -6px rgba(0,0,0,0.75);
+
+  --shadow-floater: 0px 0px 60px 0px rgba(85,85,85,0.12);
 }

@@ -93,7 +93,8 @@ figcaption,
 	.alignwide,
 	.alignwide.wp-block-cover,
 	.alignwide.wp-block-cover-image,
-	.alignwide.wp-block-image {
+	.alignwide.wp-block-image,
+	.alignwide.wp-block-separator {
 		@apply max-w-largewidth;
 		width: 100vw;
 		margin-left  : -128px;
@@ -124,6 +125,10 @@ figcaption,
 	margin-left  : calc( -100vw / 2 + 100% / 2 );
 	margin-right : calc( -100vw / 2 + 100% / 2 );
 }
+.alignfull.wp-block-separator.is-style-wide {
+	max-width: 100vw;
+}
+
 .content-area .alignfull {}
 
 .wp-block-group {}
@@ -202,6 +207,15 @@ body .wp-block-separator.section-line5x-top {
 body .wp-block-separator.section-line10x,
 body .wp-block-separator.section-line10x-top {
 	@apply h-line10x;
+}
+
+body .wp-block-separator.section-marker {
+	height: 10px;
+	margin-top: 0;
+	margin-bottom: 0;
+	background-image: repeating-linear-gradient(-45deg,
+		var(--lighter-color) 0px 10px,
+		var(--lightest2x-color) 10px 20px);
 }
 
 .wp-block-spacer.height-px {
@@ -290,13 +304,6 @@ body .wp-block-separator.section-white {
 	@apply bg-white;
 }
 
-body .wp-block-separator.is-style-wide {
-	max-width: 100%;
-}
-body .alignfull.wp-block-separator.is-style-wide {
-	max-width: 100vw;
-}
-
 body .wp-block-separator.nomargin {
 	margin-top: 0;
 	margin-bottom: 0;
@@ -308,6 +315,11 @@ body .wp-block-separator.margint-zero {
 
 body .wp-block-separator.marginb-zero {
 	margin-bottom: 0;
+}
+
+body .wp-block-separator.is-style-dots::before {
+	letter-spacing: unset;
+	padding-left: 0;
 }
 
 body .blocks-gallery-grid, 
