@@ -23,7 +23,7 @@
 .content-sidebar {}
 
 	.content-sidebar .content-area {
-		@apply xlargescreen:max-w-xlargewidth largescreen:max-w-largewidth;
+		@apply largerscreen:max-w-largerwidth largescreen:max-w-largewidth;
 
 		display: grid;
 		grid-template-columns: 2fr 1fr;

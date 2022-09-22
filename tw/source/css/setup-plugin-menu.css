@@ -1,0 +1,21 @@
+#mobile-genesis-nav-primary {
+    display: none !important;
+}
+#genesis-nav-primary {
+    display: block !important;
+}
+
+.nav-primary,
+.js .nav-primary {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+@media screen(menuscreen) {
+    .nav-primary,
+    .js .nav-primary {
+        display: block;
+        position: relative;
+    }
+}

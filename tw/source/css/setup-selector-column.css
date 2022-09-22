@@ -104,6 +104,44 @@
 	}
 }
 
+.column-gap,
+.wp-block-group.group-column-gap > .wp-block-group__inner-container {
+	@apply
+		gap-main;
+}
+	.column-gap-medium,
+	.wp-block-group.group-column-gap-medium > .wp-block-group__inner-container {
+		@apply
+			gap-medium;
+	}
+	.column-gap-medium2x,
+	.wp-block-group.group-column-gap-medium2x > .wp-block-group__inner-container {
+		@apply
+			gap-medium2x;
+	}
+	.column-gap-large,
+	.wp-block-group.group-column-gap-large > .wp-block-group__inner-container {
+		@apply
+			gap-large;
+	}
+	.column-gap-larger,
+	.wp-block-group.group-column-gap-larger > .wp-block-group__inner-container {
+		@apply
+			gap-larger;
+	}
+
+.column-row-gap,
+.wp-block-group.group-column-row-gap > .wp-block-group__inner-container {
+	@apply
+		gap-y-main;
+}
+
+.column-column-gap,
+.wp-block-group.group-column-column-gap > .wp-block-group__inner-container {
+	@apply
+		gap-x-main;
+}
+
 .column-half,
 .column-half-half,
 .wp-block-group.group-column-half > .wp-block-group__inner-container,

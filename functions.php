@@ -68,11 +68,6 @@ function genesis_child_gutenberg_support() { // phpcs:ignore WordPress.NamingCon
 	require_once get_stylesheet_directory() . '/lib/gutenberg/init.php';
 }
 
-// Registers the responsive menus.
-if ( function_exists( 'genesis_register_responsive_menus' ) ) {
-	genesis_register_responsive_menus( genesis_get_config( 'responsive-menus' ) );
-}
-
 add_action( 'wp_enqueue_scripts', 'genesis_sample_enqueue_scripts_styles' );
 /**
  * Enqueues scripts and styles.

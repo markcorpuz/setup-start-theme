@@ -46,3 +46,6 @@
 @import "setup-selector-space";
 @import "setup-selector-margin";
 @import "setup-selector-padding";
+@import "setup-selector-shadow";
+@import "setup-selector-tooltip";
+@import "setup-plugin-menu";
